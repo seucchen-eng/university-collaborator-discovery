@@ -1,0 +1,20 @@
+{
+  "downloaded_records": 88856,
+  "eligible_papers": 87101,
+  "exclusions": {
+    "abstract_position_gap": 111,
+    "retracted": 159,
+    "missing_title": 5,
+    "no_resolved_SEU_author_id": 1475
+  },
+  "duplicates": 5,
+  "author_groups": 59594,
+  "eligible_author_groups": 20685,
+  "truncated_records": 38171,
+  "query_coauthor_excluded_groups": {
+    "T01": 0,
+    "T02": 55
+  },
+  "seconds": 155.47591140004806,
+  "corpus_sha256": "a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781"
+}

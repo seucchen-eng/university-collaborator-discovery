@@ -1,0 +1,36 @@
+[
+  {
+    "query_id": "T01",
+    "need": "Find complementary research expertise for physics-informed and data-driven modelling of metal additive manufacturing, relating process, microstructure and mechanical properties. Relevant materials include nickel superalloys and titanium alloys. Experiments and material mechanisms may complement the modelling; evidence of black-box prediction alone does not establish a physics-constrained method. Data availability and collaboration willingness are unknown.",
+    "search_text": "metal additive manufacturing laser directed energy deposition powder bed fusion alloy titanium nickel physics informed machine learning modelling simulation solidification microstructure mechanical properties process data experiment strength toughness",
+    "domain_gate": [
+      "am",
+      "metal"
+    ],
+    "facets": [
+      "learning",
+      "physical_model",
+      "microstructure",
+      "properties",
+      "experiment"
+    ],
+    "dense_query": "Physics-informed and data-driven modelling of metal additive manufacturing. Process, microstructure and mechanical properties in nickel and titanium alloys. Complementary expertise in machine learning, physical simulation, solidification, material characterization and experiments."
+  },
+  {
+    "query_id": "T02",
+    "need": "Find complementary electronic design automation expertise for applying domain language models to chip design. Seek design task knowledge, real design data usable for research, and executable design-flow validation. Relevant tasks include timing, physical design and layout. Generated layouts and a paper's past access to a process library do not establish available, licensed real design data.",
+    "search_text": "electronic design automation chip circuit design timing placement routing layout netlist verification design flow benchmark dataset data machine learning language model physical design",
+    "domain_gate": [
+      "ic",
+      "eda"
+    ],
+    "facets": [
+      "timing",
+      "layout",
+      "learning",
+      "data",
+      "validation"
+    ],
+    "dense_query": "Electronic design automation for chip design using artificial intelligence and domain language models. Complementary expertise in timing prediction, physical design, placement, routing and layout, real circuit design datasets and executable design flow validation."
+  }
+]

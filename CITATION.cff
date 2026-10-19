@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the version or commit of this research software that you use."
+type: software
+title: "University collaborator discovery using language models and source-linked publication evidence"
+authors:
+  - family-names: Chen
+    given-names: Chao
+  - family-names: Li
+    given-names: Chao
+  - family-names: Wang
+    given-names: Youdong
+  - family-names: Zhu
+    given-names: Haijian
+version: 0.1.0
+repository-code: "https://github.com/seucchen-eng/university-collaborator-discovery"
+url: "https://github.com/seucchen-eng/university-collaborator-discovery"
+license: MIT
+abstract: "Research code and frozen inputs for a two-case institutional collaborator-discovery study. Third-party material retains its original license terms."

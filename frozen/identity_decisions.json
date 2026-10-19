@@ -1,0 +1,1506 @@
+{
+  "A5115590637": {
+    "author_key": "A5115590637",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "JB",
+    "name": "白晶",
+    "college": "Materials Science and Engineering",
+    "profile_url": "https://smse.seu.edu.cn/2009/1207/c2590a83589/page.htm",
+    "basis": "Current official faculty directory and profile identify Jing Bai/白晶, SEU materials faculty, with magnesium-alloy research; both selected papers have exact raw full name and SEU materials affiliation. Global ORCID conflicts remain unresolved.",
+    "sources": [
+      "https://smse.seu.edu.cn/_t637/szry/list.htm",
+      "https://smse.seu.edu.cn/2009/1207/c2590a83589/page.htm"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4413136239",
+      "W4404647779"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4413136239",
+        "title": "Multi-physics modeling of laser melted magnesium alloy: Bridging melt pool dynamics to microstructure evolution",
+        "doi": "10.1016/j.jma.2025.06.032",
+        "year": 2025,
+        "author": {
+          "display_name": "Jing Bai",
+          "raw_name": "Jing Bai",
+          "openalex_author_id": "https://openalex.org/A5115590637",
+          "orcid": "https://orcid.org/0000-0001-5412-7793",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5412-7793",
+            "https://orcid.org/0000-0001-5916-012X"
+          ],
+          "raw_affiliations": [
+            "School of Materials Science and Engineering, Southeast University, Nanjing 211189, China"
+          ]
+        }
+      },
+      {
+        "id": "W4404647779",
+        "title": "Laser powder bed fusion of biodegradable magnesium alloys: process, microstructure and properties",
+        "doi": "10.1088/2631-7990/ad967e",
+        "year": 2024,
+        "author": {
+          "display_name": "Jing Bai",
+          "raw_name": "Jing Bai",
+          "openalex_author_id": "https://openalex.org/A5115590637",
+          "orcid": "https://orcid.org/0000-0001-5412-7793",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5412-7793",
+            "https://orcid.org/0000-0001-5916-012X"
+          ],
+          "raw_affiliations": [
+            "School of Materials Science and Engineering, Southeast University, Nanjing 211189, People’s Republic of China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5012622330": {
+    "author_key": "A5012622330",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "FMZ",
+    "name": "张法明",
+    "college": "Materials Science and Engineering",
+    "profile_url": "https://smse.seu.edu.cn/2014/0320/c2590a83616/page.htm",
+    "sources": [
+      "https://smse.seu.edu.cn/2014/0320/c2590a83616/page.htm"
+    ],
+    "basis": "Official current faculty listing/profile plus matching author name, SEU department/laboratory address, and research area in selected paper metadata. Selected papers only; the full provisional author group is not disambiguated. Rechecked for this run against the raw full names and departmental affiliations on every listed selected paper.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4400583936",
+      "W4412879043"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4400583936",
+        "title": "Achieving superior strength-ductility combination in the heterogeneous microstructured Ti64 alloy via multi-eutectoid elements alloying with CoCrFeNiMn during laser powder bed fusion",
+        "doi": "10.1080/17452759.2024.2375106",
+        "year": 2024,
+        "author": {
+          "display_name": "Faming Zhang",
+          "raw_name": "Faming Zhang",
+          "openalex_author_id": "https://openalex.org/A5012622330",
+          "orcid": "https://orcid.org/0000-0001-7653-8163",
+          "raw_orcid": "https://orcid.org/0000-0001-7653-8163",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7653-8163",
+            "https://orcid.org/0009-0002-4501-1283"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory for Advanced Metallic Materials, School of Materials Science and Engineering, Southeast University, Nanjing, People’s Republic of China",
+            "Jiangsu Key Laboratory for Advanced Metallic Materials, School of Materials Science and Engineering, Southeast University, Nanjing, People's Republic of China"
+          ]
+        }
+      },
+      {
+        "id": "W4412879043",
+        "title": "Enhancing strength and ductility in Ti64 Alloys: Optimizing dual-phase heterostructures and TRIP effects via high-entropy alloy content modulation",
+        "doi": "10.1016/j.matdes.2025.114399",
+        "year": 2025,
+        "author": {
+          "display_name": "Faming Zhang",
+          "raw_name": "Faming Zhang",
+          "openalex_author_id": "https://openalex.org/A5012622330",
+          "orcid": "https://orcid.org/0000-0001-7653-8163",
+          "raw_orcid": "https://orcid.org/0000-0001-7653-8163",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7653-8163",
+            "https://orcid.org/0009-0002-4501-1283"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory for Advanced Metallic Materials, School of Materials Science and Engineering, Southeast University, 211189 Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5032469629": {
+    "author_key": "A5032469629",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Publication affiliation is SEU materials, but bounded official faculty-directory and exact-name searches did not establish current SEU faculty status; no claim of ineligibility.",
+    "sources": [
+      "https://smse.seu.edu.cn/_t637/szry/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5101804537": {
+    "author_key": "A5101804537",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper addresses include SEU materials and external institutions. Current SEU faculty status was not established in the official materials directory; no whole-profile identity inference.",
+    "sources": [
+      "https://smse.seu.edu.cn/_t637/szry/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5057749252": {
+    "author_key": "A5057749252",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "GFS",
+    "name": "孙桂芳",
+    "college": "Mechanical Engineering",
+    "profile_url": "https://me.seu.edu.cn/sgf_50521/list.htm",
+    "sources": [
+      "https://me.seu.edu.cn/sgf_50521/list.htm"
+    ],
+    "basis": "Both selected paper titles appear on the official faculty publication list; selected authorships match the SEU mechanical faculty identity. Other works and conflicting global ORCIDs are not accepted wholesale.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4406158296",
+      "W4306691679"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4406158296",
+        "title": "Online stress monitoring during laser-directed energy deposition based on dynamic contour method",
+        "doi": "10.1080/17452759.2024.2448543",
+        "year": 2025,
+        "author": {
+          "display_name": "Guifang Sun",
+          "raw_name": "Guifang Sun",
+          "openalex_author_id": "https://openalex.org/A5057749252",
+          "orcid": "https://orcid.org/0000-0002-3809-1652",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3809-1652",
+            "https://orcid.org/0000-0002-3424-4180"
+          ],
+          "raw_affiliations": [
+            "Southeast University",
+            "School of Mechanical Engineering, Southeast University, Nanjing, People's Republic of China"
+          ]
+        }
+      },
+      {
+        "id": "W4306691679",
+        "title": "Underwater laser directed energy deposition of NV E690 steel",
+        "doi": "10.1016/j.apmate.2022.100095",
+        "year": 2022,
+        "author": {
+          "display_name": "Guifang Sun",
+          "raw_name": "Guifang Sun",
+          "openalex_author_id": "https://openalex.org/A5057749252",
+          "orcid": "https://orcid.org/0000-0002-3809-1652",
+          "raw_orcid": "https://orcid.org/0000-0002-3809-1652",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3809-1652",
+            "https://orcid.org/0000-0002-3424-4180"
+          ],
+          "raw_affiliations": [
+            "School of Mechanical Engineering and Jiangsu Key Lab Design & Mfg Micronano Biomed Ins, Southeast University, Nanjing, Jiangsu, 211189, PR China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5110695077": {
+    "author_key": "A5110695077",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5074477190": {
+    "author_key": "A5074477190",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5103282567": {
+    "author_key": "A5103282567",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "SEU-FF": {
+    "author_key": "SEU-FF",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "FF",
+    "name": "方峰",
+    "college": "Materials Science and Engineering",
+    "profile_url": "https://smse.seu.edu.cn/2011/0327/c2590a83596/page.htm",
+    "sources": [
+      "https://smse.seu.edu.cn/2011/0327/c2590a83596/page.htm"
+    ],
+    "basis": "Exact raw name Feng Fang and SEU Advanced Metallic Materials laboratory on both selected publications; official faculty profile and bounded local author-ID rule. Conflicting global ORCIDs remain unresolved.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4387951905",
+      "W4416057019"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4416057019",
+        "title": "Wire arc additive manufacturing of dissimilar alloys: Processing strategies and interfacial phenomena",
+        "doi": "10.1016/j.jmapro.2025.10.079",
+        "year": 2025,
+        "author": {
+          "display_name": "Feng Fang",
+          "raw_name": "Feng Fang",
+          "openalex_author_id": "https://openalex.org/A5051763639",
+          "orcid": "https://orcid.org/0000-0002-3961-3061",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3961-3061"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Nanjing, 211189, China"
+          ]
+        }
+      },
+      {
+        "id": "W4387951905",
+        "title": "Machine Learning-Based Hardness Prediction of High-Entropy Alloys for Laser Additive Manufacturing",
+        "doi": "10.1007/s11837-023-06174-x",
+        "year": 2023,
+        "author": {
+          "display_name": "Feng Fang",
+          "raw_name": "Feng Fang",
+          "openalex_author_id": "https://openalex.org/A5003225383",
+          "orcid": "https://orcid.org/0000-0002-9568-8332",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9568-8332"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Nanjing, 211189, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5100550009": {
+    "author_key": "A5100550009",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5090707556": {
+    "author_key": "A5090707556",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "JQJ",
+    "name": "蒋建清",
+    "college": "Materials Science and Engineering",
+    "profile_url": "https://smse.seu.edu.cn/jjq/2023/0811/c29142a456438/page.htm",
+    "basis": "Official SEU faculty biography and active research-group page support the institutional research affiliation. W4220871449 has raw full name and SEU Advanced Metallic Materials laboratory. W2001439099 uses initials J. Q. Jiang at that laboratory with the same local research collaborators and OpenAlex identity. The latter is an operational initials-resolution inference, not a unique-identifier confirmation or a verified full-time employment claim.",
+    "sources": [
+      "https://smse.seu.edu.cn/jjq/2023/0811/c29142a456438/page.htm",
+      "https://smse.seu.edu.cn/jjq/",
+      "https://doi.org/10.1063/1.3552523"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4220871449",
+      "W2001439099"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4220871449",
+        "title": "Phase formation prediction of high-entropy alloys: a deep learning study",
+        "doi": "10.1016/j.jmrt.2022.01.172",
+        "year": 2022,
+        "author": {
+          "display_name": "Jianqing Jiang",
+          "raw_name": "Jianqing Jiang",
+          "openalex_author_id": "https://openalex.org/A5090707556",
+          "orcid": "https://orcid.org/0000-0002-5191-7316",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5191-7316"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Nanjing 211189, China",
+            "School of Mechanical and Electrical Engineering, Nanjing Forestry University, Nanjing 210037, China"
+          ]
+        }
+      },
+      {
+        "id": "W2001439099",
+        "title": "Solidification Microstructure of AISI M2 High Speed Steel Manufactured by the Horizontal Continuous Casting Process",
+        "doi": "10.1063/1.3552523",
+        "year": 2011,
+        "author": {
+          "display_name": "Jianqing Jiang",
+          "raw_name": "J. Q. Jiang",
+          "openalex_author_id": "https://openalex.org/A5090707556",
+          "orcid": "https://orcid.org/0000-0002-5191-7316",
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory of Advanced Metallic Materials, Southeast University, Jiangning District, Nanjing, Jiangsu Province 211189, P. R. China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5100755699": {
+    "author_key": "A5100755699",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5103274896": {
+    "author_key": "A5103274896",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "DKS",
+    "name": "孙东科",
+    "college": "Mechanical Engineering",
+    "profile_url": "https://me.seu.edu.cn/2020/1231/c31182a358424/page1.psp",
+    "sources": [
+      "https://me.seu.edu.cn/2020/1231/c31182a358424/page1.psp"
+    ],
+    "basis": "Official SEU mechanical faculty profile and selected paper-level SEU mechanical affiliation; raw Dongke Sun and bilingual Dongke 东科 Sun 孙 are resolved as the same name. Only the listed publications are checked.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4415426565",
+      "W4225151279",
+      "W4407763391"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4415426565",
+        "title": "Effects of near immersion active cooling on microstructure control in wire arc additive manufacturing of IN718: multiscale modeling and experiments",
+        "doi": "10.1016/j.jmrt.2025.10.183",
+        "year": 2025,
+        "author": {
+          "display_name": "Dongke Sun",
+          "raw_name": "Dongke Sun",
+          "openalex_author_id": "https://openalex.org/A5103274896",
+          "orcid": "https://orcid.org/0000-0002-3521-5381",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3521-5381"
+          ],
+          "raw_affiliations": [
+            "School of Mechanical Engineering, Southeast University, Nanjing 211189, China"
+          ]
+        }
+      },
+      {
+        "id": "W4225151279",
+        "title": "A Two-Relaxation-Time Lattice Boltzmann Model for Electron Beam Selective Melting Additive Manufacturing",
+        "doi": "10.3389/fmats.2022.885481",
+        "year": 2022,
+        "author": {
+          "display_name": "Dongke Sun",
+          "raw_name": "Dongke Sun",
+          "openalex_author_id": "https://openalex.org/A5103274896",
+          "orcid": "https://orcid.org/0000-0002-3521-5381",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3521-5381"
+          ],
+          "raw_affiliations": [
+            "School of Mechanical Engineering, Southeast University, Nanjing, China"
+          ]
+        }
+      },
+      {
+        "id": "W4407763391",
+        "title": "Modeling of microstructure and microsegregation evolution in solidification of ternary alloys",
+        "doi": "10.1088/1674-1056/adb8b5",
+        "year": 2025,
+        "author": {
+          "display_name": "Dongke Sun",
+          "raw_name": "Dongke 东科 Sun 孙",
+          "openalex_author_id": "https://openalex.org/A5103274896",
+          "orcid": "https://orcid.org/0000-0002-3521-5381",
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory for Biomaterials and Devices, Southeast University, Nanjing 211189, China",
+            "Key Laboratory of Structure and Thermal Protection of High Speed Aircraft, Ministry of Education, School of Mechanical Engineering, Southeast University, Nanjing 211189, China",
+            "School of Mechanical Engineering, Southeast University, Nanjing 211189, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5086155253": {
+    "author_key": "A5086155253",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "A publisher book biography identifies historical SEU assistant-professor status, but a current SEU faculty appointment was not established by the bounded official civil-engineering directory check. Withheld as unresolved, not declared ineligible.",
+    "sources": [
+      "https://civil.seu.edu.cn/szdw/list.htm",
+      "https://shop.elsevier.com/books/design-of-steel-concrete-composite-structures-using-high-strength-materials/richard-liew/978-0-12-823396-2",
+      "https://link.springer.com/article/10.1007/s44285-025-00046-3"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5100427555": {
+    "author_key": "A5100427555",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "The selected review identifies Yi-Ran Li at SEU civil engineering, but current faculty status was not established in the bounded official directory check.",
+    "sources": [
+      "https://civil.seu.edu.cn/szdw/list.htm",
+      "https://link.springer.com/article/10.1007/s44285-025-00046-3"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5100786391": {
+    "author_key": "A5100786391",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "TG",
+    "name": "郭彤",
+    "college": "Civil Engineering",
+    "profile_url": "https://civil.seu.edu.cn/2020/1022/c30576a350745/pagem10.htm",
+    "basis": "Official SEU civil-engineering professor profile; publisher explicitly assigns Tong Guo on the selected review to SEU civil engineering.",
+    "sources": [
+      "https://civil.seu.edu.cn/2020/1022/c30576a350745/pagem10.htm",
+      "https://link.springer.com/article/10.1007/s44285-025-00046-3"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4411254318"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4411254318",
+        "title": "Overview of material constitutive law for additive manufacturing metal structures",
+        "doi": "10.1007/s44285-025-00046-3",
+        "year": 2025,
+        "author": {
+          "display_name": "Tong Guo",
+          "raw_name": "Tong Guo",
+          "openalex_author_id": "https://openalex.org/A5100786391",
+          "orcid": "https://orcid.org/0000-0002-5895-0629",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5895-0629"
+          ],
+          "raw_affiliations": [
+            "Key Laboratory of Concrete and Prestressed Concrete Structures of Ministry of Education, Southeast University, Nanjing, 211189, China",
+            "School of Civil Engineering, Southeast University, Jiulonghu Campus, Nanjing, 211189, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5022745041": {
+    "author_key": "A5022745041",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5042226686": {
+    "author_key": "A5042226686",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "BLS",
+    "name": "沈宝龙",
+    "college": "Materials Science and Engineering",
+    "profile_url": "https://smse.seu.edu.cn/2018/1023/c2590a243876/pagem.htm",
+    "basis": "Official SEU materials professor profile; selected publication has exact full name, SEU materials affiliation and ORCID 0000-0002-0358-6540.",
+    "sources": [
+      "https://smse.seu.edu.cn/2018/1023/c2590a243876/pagem.htm",
+      "https://smse.seu.edu.cn/mmlab/27573/list.htm"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W7125634879"
+    ],
+    "paper_checks": [
+      {
+        "id": "W7125634879",
+        "title": "A Mini Review on Evolution of High‐Entropy Alloy Design: From Experimental Approaches to Machine Learning Integration",
+        "doi": "10.1002/rar2.70048",
+        "year": 2025,
+        "author": {
+          "display_name": "Baolong Shen",
+          "raw_name": "Baolong Shen",
+          "openalex_author_id": "https://openalex.org/A5042226686",
+          "orcid": "https://orcid.org/0000-0002-0358-6540",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0358-6540"
+          ],
+          "raw_affiliations": [
+            "Jiangsu Key Laboratory for Advanced Metallic Materials School of Materials Science and Engineering Southeast University  Nanjing China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5034683045": {
+    "author_key": "A5034683045",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5083898779": {
+    "author_key": "A5083898779",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5103102000": {
+    "author_key": "A5103102000",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5107809310": {
+    "author_key": "A5107809310",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5109752919": {
+    "author_key": "A5109752919",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5054085833": {
+    "author_key": "A5054085833",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5057266863": {
+    "author_key": "A5057266863",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5065790755": {
+    "author_key": "A5065790755",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5081729665": {
+    "author_key": "A5081729665",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5072677095": {
+    "author_key": "A5072677095",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "SEU-JL": {
+    "author_key": "SEU-JL",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5003692319": {
+    "author_key": "A5003692319",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected publications state SEU but lack a department-level identity link. Current SEU faculty identity was not established from the official IC faculty directory and exact-name search. The profile contains multiple observed ORCIDs.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm",
+      "https://doi.org/10.1109/access.2025.3610615"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5046599843": {
+    "author_key": "A5046599843",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "PC",
+    "name": "曹鹏",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/caopeng/main.htm",
+    "sources": [
+      "https://ic.seu.edu.cn/caopeng/main.htm"
+    ],
+    "basis": "Official current faculty listing/profile plus matching author name, SEU department/laboratory address, and research area in selected paper metadata. Selected papers only; the full provisional author group is not disambiguated. Rechecked for this run against the raw full names and departmental affiliations on every listed selected paper.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4408145357",
+      "W4212927526",
+      "W4417508632",
+      "W4386763894"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4408145357",
+        "title": "An Optimization-Aware Prerouting Timing Prediction Framework Based on Multimodal Learning",
+        "doi": "10.1109/tcad.2025.3547806",
+        "year": 2025,
+        "author": {
+          "display_name": "Peng Cao",
+          "raw_name": "Peng Cao",
+          "openalex_author_id": "https://openalex.org/A5046599843",
+          "orcid": "https://orcid.org/0000-0003-2039-9031",
+          "raw_orcid": "https://orcid.org/0000-0003-2039-9031",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2039-9031",
+            "https://orcid.org/0009-0003-7104-5492",
+            "https://orcid.org/0009-0001-5639-0402"
+          ],
+          "raw_affiliations": [
+            "National ASIC System Engineering Research Center, Southeast University, Nanjing, China",
+            "School of Integrated Circuits, Southeast University, Nanjing, China"
+          ]
+        }
+      },
+      {
+        "id": "W4212927526",
+        "title": "Pre-Routing Path Delay Estimation Based on Transformer and Residual Framework",
+        "doi": "10.1109/asp-dac52403.2022.9712484",
+        "year": 2022,
+        "author": {
+          "display_name": "Peng Cao",
+          "raw_name": "Peng Cao",
+          "openalex_author_id": "https://openalex.org/A5046599843",
+          "orcid": "https://orcid.org/0000-0003-2039-9031",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2039-9031",
+            "https://orcid.org/0009-0003-7104-5492",
+            "https://orcid.org/0009-0001-5639-0402"
+          ],
+          "raw_affiliations": [
+            "National ASIC System Engineering Technology Research Center, Southeast University,Nanjing,China",
+            "National ASIC System Engineering Technology Research Center, Southeast University, Nanjing, China"
+          ]
+        }
+      },
+      {
+        "id": "W4417508632",
+        "title": "Physical-Aware Multicorner Timing Prediction for Pre-Placement Optimization Using BiLSTM and GNN Networks",
+        "doi": "10.1109/tcad.2025.3646591",
+        "year": 2025,
+        "author": {
+          "display_name": "Peng Cao",
+          "raw_name": "Peng Cao",
+          "openalex_author_id": "https://openalex.org/A5046599843",
+          "orcid": "https://orcid.org/0000-0003-2039-9031",
+          "raw_orcid": "https://orcid.org/0000-0003-2039-9031",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2039-9031",
+            "https://orcid.org/0009-0003-7104-5492",
+            "https://orcid.org/0009-0001-5639-0402"
+          ],
+          "raw_affiliations": [
+            "Southeast University",
+            "School of Integrated Circuits, Southeast University, Nanjing, China"
+          ]
+        }
+      },
+      {
+        "id": "W4386763894",
+        "title": "Critical Paths Prediction under Multiple Corners Based on BiLSTM Network",
+        "doi": "10.1109/dac56929.2023.10247984",
+        "year": 2023,
+        "author": {
+          "display_name": "Peng Cao",
+          "raw_name": "Peng Cao",
+          "openalex_author_id": "https://openalex.org/A5046599843",
+          "orcid": "https://orcid.org/0000-0003-2039-9031",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2039-9031",
+            "https://orcid.org/0009-0003-7104-5492",
+            "https://orcid.org/0009-0001-5639-0402"
+          ],
+          "raw_affiliations": [
+            "Southeast University,National ASIC System Engineering Technology Research Center,Nanjing,China",
+            "National ASIC System Engineering Technology Research Center, Southeast University, Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5101976404": {
+    "author_key": "A5101976404",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official 2023 award and EDA contest pages identify a student/team member supervised by Peng Cao; current faculty appointment not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1016/c47790a468454/page.htm",
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5073716560": {
+    "author_key": "A5073716560",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official 2023 page identifies a master student; current faculty appointment was not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1027/c47762a470459/page.htm",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5007813793": {
+    "author_key": "A5007813793",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official EDA contest lists Cheng Xu as a team member supervised by Peng Cao. Current faculty appointment not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5009441608": {
+    "author_key": "A5009441608",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected paper's raw author name Mingwei He conflicts with profile display name Muxin He. Faculty identity unresolved; no mapping from the profile name.",
+    "sources": [
+      "https://doi.org/10.1109/iseda65950.2025.11100758",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5027887959": {
+    "author_key": "A5027887959",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official 2023 graduate scholarship and EDA contest identify a student/team member; current faculty appointment not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1016/c47790a468454/page.htm",
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5001640816": {
+    "author_key": "A5001640816",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Paper-level SEU ASIC affiliation established, but a current faculty appointment was not resolved in the official IC directory. Withheld as unresolved, not declared ineligible.",
+    "sources": [
+      "https://doi.org/10.1038/s41598-024-76859-z",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5016174011": {
+    "author_key": "A5016174011",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official EDA contest lists Qin Yusen as a team member supervised by Peng Cao; current faculty appointment not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5101499715": {
+    "author_key": "A5101499715",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "LXS",
+    "name": "时龙兴",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/shilongxing/main.htm",
+    "sources": [
+      "https://ic.seu.edu.cn/shilongxing/main.htm"
+    ],
+    "basis": "Official current faculty listing/profile plus matching author name, SEU department/laboratory address, and research area in selected paper metadata. Selected papers only; the full provisional author group is not disambiguated. Rechecked for this run against the raw full names and departmental affiliations on every listed selected paper.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4413122177",
+      "W4403919716"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4413122177",
+        "title": "Pre-Routing Timing Estimation Considering Power Delivery Network",
+        "doi": "10.1109/iseda65950.2025.11100758",
+        "year": 2025,
+        "author": {
+          "display_name": "Longxing Shi",
+          "raw_name": "Longxing Shi",
+          "openalex_author_id": "https://openalex.org/A5101499715",
+          "orcid": "https://orcid.org/0000-0002-0629-7154",
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "Southeast University,School of Integrated Circuits,Nanjing,China"
+          ]
+        }
+      },
+      {
+        "id": "W4403919716",
+        "title": "Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing",
+        "doi": "10.1109/tcad.2024.3488577",
+        "year": 2024,
+        "author": {
+          "display_name": "Longxing Shi",
+          "raw_name": "Longxing Shi",
+          "openalex_author_id": "https://openalex.org/A5101499715",
+          "orcid": "https://orcid.org/0000-0002-0629-7154",
+          "raw_orcid": "https://orcid.org/0000-0002-0629-7154",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0629-7154"
+          ],
+          "raw_affiliations": [
+            "National ASIC Research Center, Southeast University, Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5085746012": {
+    "author_key": "A5085746012",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected papers use raw name Tai Yang while the profile displays Tai Cheng Yang. No current SEU faculty identity established; these names are not silently equated.",
+    "sources": [
+      "https://doi.org/10.1109/asp-dac52403.2022.9712484",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5053598579": {
+    "author_key": "A5053598579",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Author's own homepage identifies a CUHK postdoctoral researcher after a 2024 SEU PhD. Current SEU faculty appointment was not established; historical publication affiliation alone is insufficient.",
+    "sources": [
+      "https://rainsunye.github.io/",
+      "https://doi.org/10.1109/tcad.2024.3488577",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5088178933": {
+    "author_key": "A5088178933",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper SEU IC affiliation exists, but exact-name and official IC faculty-directory checks did not establish a current faculty appointment. No inference of student status or ineligibility is made.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5090014319": {
+    "author_key": "A5090014319",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper SEU IC affiliation exists, but exact-name and official IC faculty-directory checks did not establish a current faculty appointment. No inference of student status or ineligibility is made.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5100442245": {
+    "author_key": "A5100442245",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "XW",
+    "name": "王翕",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/wx/main.htm",
+    "basis": "Official SEU IC faculty profile lists ChatChisel (W4401415993) exactly. Both selected papers have raw full name Xi Wang and SEU IC affiliation. Observed global ORCID conflicts remain unresolved.",
+    "sources": [
+      "https://ic.seu.edu.cn/wx/main.htm"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4401415993",
+      "W4416429577"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4401415993",
+        "title": "ChatChisel: Enabling Agile Hardware Design with Large Language Models",
+        "doi": "10.1109/iseda62518.2024.10618053",
+        "year": 2024,
+        "author": {
+          "display_name": "Xi Wang",
+          "raw_name": "Xi Wang",
+          "openalex_author_id": "https://openalex.org/A5100442245",
+          "orcid": "https://orcid.org/0000-0002-1998-6733",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1998-6733",
+            "https://orcid.org/0000-0001-6369-6058"
+          ],
+          "raw_affiliations": [
+            "School of Integrate Circuits, Southeast University,National ASIC Center,Nanjing,China,210096"
+          ]
+        }
+      },
+      {
+        "id": "W4416429577",
+        "title": "MMCircuitEval: A Comprehensive Multimodal Circuit-Focused Benchmark for Evaluating LLMs",
+        "doi": "10.1109/iccad66269.2025.11240653",
+        "year": 2025,
+        "author": {
+          "display_name": "Xi Wang",
+          "raw_name": "Xi Wang",
+          "openalex_author_id": "https://openalex.org/A5100442245",
+          "orcid": "https://orcid.org/0000-0002-1998-6733",
+          "raw_orcid": null,
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1998-6733",
+            "https://orcid.org/0000-0001-6369-6058"
+          ],
+          "raw_affiliations": [
+            "Southeast University,School of Intergrated Circuits"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5057291086": {
+    "author_key": "A5057291086",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "WWSH",
+    "name": "单伟伟",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/shanweiwei/main.htm",
+    "basis": "Official SEU IC professor profile and faculty directory; selected publications have exact full name and SEU IC / earlier School of Electronic Science and Engineering affiliations.",
+    "sources": [
+      "https://ic.seu.edu.cn/shanweiwei/main.htm",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4413120686",
+      "W4389776171"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4413120686",
+        "title": "LLMACD: An LLM-Based Analog Circuit Designer Driven by Behavior Parameters",
+        "doi": "10.1109/iseda65950.2025.11101244",
+        "year": 2025,
+        "author": {
+          "display_name": "Weiwei Shan",
+          "raw_name": "Weiwei Shan",
+          "openalex_author_id": "https://openalex.org/A5057291086",
+          "orcid": "https://orcid.org/0000-0001-5520-1326",
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "Southeast University,School of Integrated Circuits,Nanjing,China"
+          ]
+        }
+      },
+      {
+        "id": "W4389776171",
+        "title": "Knowledge Transfer Framework for PVT Robustness in Analog Integrated Circuits",
+        "doi": "10.1109/tcsi.2023.3340683",
+        "year": 2023,
+        "author": {
+          "display_name": "Weiwei Shan",
+          "raw_name": "Weiwei Shan",
+          "openalex_author_id": "https://openalex.org/A5057291086",
+          "orcid": "https://orcid.org/0000-0001-5520-1326",
+          "raw_orcid": "https://orcid.org/0000-0001-5520-1326",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5520-1326"
+          ],
+          "raw_affiliations": [
+            "School of Electronic Science and Engineering, Southeast University, Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5109281374": {
+    "author_key": "A5109281374",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper SEU IC affiliation exists, but exact-name and official IC faculty-directory checks did not establish a current faculty appointment. No inference of student status or ineligibility is made.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5114549678": {
+    "author_key": "A5114549678",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper SEU IC affiliation exists, but exact-name and official IC faculty-directory checks did not establish a current faculty appointment. No inference of student status or ineligibility is made.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5108768713": {
+    "author_key": "A5108768713",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Selected-paper SEU IC affiliation exists, but exact-name and official IC faculty-directory checks did not establish a current faculty appointment. No inference of student status or ineligibility is made.",
+    "sources": [
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5111351556": {
+    "author_key": "A5111351556",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "JY",
+    "name": "杨军",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/yangjun/main.htm",
+    "basis": "Official SEU IC professor profile documents the appointment from 2015; both selected publications have raw full name Jun Yang and SEU IC affiliation. No ORCID-based whole-profile merge is inferred.",
+    "sources": [
+      "https://ic.seu.edu.cn/yangjun/main.htm"
+    ],
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4402940010",
+      "W4413122606"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4402940010",
+        "title": "Large circuit models: opportunities and challenges",
+        "doi": "10.1007/s11432-024-4155-7",
+        "year": 2024,
+        "author": {
+          "display_name": "Jun Yang",
+          "raw_name": "Jun Yang",
+          "openalex_author_id": "https://openalex.org/A5111351556",
+          "orcid": null,
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "School of Integrated Circuits, Southeast University, Nanjing, 210096, China"
+          ]
+        }
+      },
+      {
+        "id": "W4413122606",
+        "title": "ForgeEDA: A Comprehensive Multimodal Dataset for Advancing EDA",
+        "doi": "10.1109/iseda65950.2025.11101194",
+        "year": 2025,
+        "author": {
+          "display_name": "Jun Yang",
+          "raw_name": "Jun Yang",
+          "openalex_author_id": "https://openalex.org/A5111351556",
+          "orcid": null,
+          "raw_orcid": null,
+          "observed_orcids": [],
+          "raw_affiliations": [
+            "Southeast University,School of Intergrated Circuits,Nanjing,China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5100380082": {
+    "author_key": "A5100380082",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5072916702": {
+    "author_key": "A5072916702",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5101505697": {
+    "author_key": "A5101505697",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "not_reviewed_beyond_stop",
+    "basis": "Outside the required review prefix after three accepted faculty; no eligibility judgment.",
+    "sources": [],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": false
+  },
+  "A5100587123": {
+    "author_key": "A5100587123",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official EDA contest lists Song Qianqian as a student team member supervised by Peng Cao; current faculty appointment was not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm",
+      "https://ic.seu.edu.cn/47772/list.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5101450162": {
+    "author_key": "A5101450162",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "status": "unresolved",
+    "basis": "Official EDA contest lists Cheng Xu as a team member supervised by Peng Cao. Current faculty appointment not established.",
+    "sources": [
+      "https://ic.seu.edu.cn/2023/1228/c47755a477464/page.htm"
+    ],
+    "verified_paper_uids": [],
+    "used_in_review_prefix": true
+  },
+  "A5040139371": {
+    "author_key": "A5040139371",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "HY",
+    "name": "闫浩",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/yanhao/main.htm",
+    "sources": [
+      "https://ic.seu.edu.cn/yanhao/main.htm"
+    ],
+    "basis": "Official current faculty listing/profile plus matching author name, SEU department/laboratory address, and research area in selected paper metadata. Selected papers only; the full provisional author group is not disambiguated. Rechecked for this run against the raw full names and departmental affiliations on every listed selected paper.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4403919716",
+      "W4413010695"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4403919716",
+        "title": "Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing",
+        "doi": "10.1109/tcad.2024.3488577",
+        "year": 2024,
+        "author": {
+          "display_name": "Hao Yan",
+          "raw_name": "Hao Yan",
+          "openalex_author_id": "https://openalex.org/A5040139371",
+          "orcid": "https://orcid.org/0000-0002-5312-4483",
+          "raw_orcid": "https://orcid.org/0000-0002-5312-4483",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5312-4483"
+          ],
+          "raw_affiliations": [
+            "National ASIC Research Center, Southeast University, Nanjing, China"
+          ]
+        }
+      },
+      {
+        "id": "W4413010695",
+        "title": "DCTDSE: A Bimodal Design Space Exploration Flow via Discrete–Continuous Transformation",
+        "doi": "10.1109/tcad.2025.3596538",
+        "year": 2025,
+        "author": {
+          "display_name": "Hao Yan",
+          "raw_name": "Hao Yan",
+          "openalex_author_id": "https://openalex.org/A5040139371",
+          "orcid": "https://orcid.org/0000-0002-5312-4483",
+          "raw_orcid": "https://orcid.org/0000-0002-5312-4483",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5312-4483"
+          ],
+          "raw_affiliations": [
+            "National ASIC System Engineering Technology Research Center, Southeast University, Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  },
+  "A5027132950": {
+    "author_key": "A5027132950",
+    "checked_by": "AI research assistant",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false,
+    "scope": "Operational selected-publication correspondence and public faculty profile, not whole-profile disambiguation.",
+    "person_id": "BWZ",
+    "name": "朱彬武",
+    "college": "Integrated Circuits",
+    "profile_url": "https://ic.seu.edu.cn/zbw/main.htm",
+    "sources": [
+      "https://ic.seu.edu.cn/zbw/main.htm"
+    ],
+    "basis": "Official current faculty listing/profile plus matching author name, SEU department/laboratory address, and research area in selected paper metadata. Selected papers only; the full provisional author group is not disambiguated. Rechecked for this run against the raw full names and departmental affiliations on every listed selected paper.",
+    "status": "verified_for_this_run",
+    "verified_paper_uids": [
+      "W4405844877",
+      "W4409168397"
+    ],
+    "paper_checks": [
+      {
+        "id": "W4405844877",
+        "title": "Prerouting Timing Prediction Across Different Technology Nodes",
+        "doi": "10.1109/tcad.2024.3523426",
+        "year": 2024,
+        "author": {
+          "display_name": "Binwu Zhu",
+          "raw_name": "Binwu Zhu",
+          "openalex_author_id": "https://openalex.org/A5027132950",
+          "orcid": "https://orcid.org/0000-0001-8625-1502",
+          "raw_orcid": "https://orcid.org/0000-0001-8625-1502",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8625-1502"
+          ],
+          "raw_affiliations": [
+            "School of Integrated Circuits, Southeast University, Nanjing, China",
+            "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong, Hong Kong"
+          ]
+        }
+      },
+      {
+        "id": "W4409168397",
+        "title": "Bridging Hotspot Detection and Mask Optimization via Domain-Crossing Masked Layout Modeling",
+        "doi": "10.1145/3728468",
+        "year": 2025,
+        "author": {
+          "display_name": "Binwu Zhu",
+          "raw_name": "Binwu Zhu",
+          "openalex_author_id": "https://openalex.org/A5027132950",
+          "orcid": "https://orcid.org/0000-0001-8625-1502",
+          "raw_orcid": "https://orcid.org/0000-0001-8625-1502",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8625-1502"
+          ],
+          "raw_affiliations": [
+            "Southeast University, Nanjing, China",
+            "School of Integrated Circuit, Southeast University, Nanjing, China"
+          ]
+        }
+      }
+    ],
+    "used_in_review_prefix": true
+  }
+}

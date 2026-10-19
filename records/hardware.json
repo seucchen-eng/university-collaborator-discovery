@@ -1,0 +1,7 @@
+{
+  "cpu": "Intel(R) Core(TM) i9-14900",
+  "physical_cores": 24,
+  "logical_processors": 32,
+  "total_physical_memory_bytes": 34013265920,
+  "source": "Win32_Processor and Win32_ComputerSystem queried on 2026-09-26"
+}

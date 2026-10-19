@@ -1,0 +1,306 @@
+[
+  {
+    "card_id": "K003",
+    "query": "T01",
+    "method": "B1",
+    "person_code": "P008",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": true,
+    "paper_ids": [
+      "W4400583936",
+      "W4412879043"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K009",
+    "query": "T01",
+    "method": "B1",
+    "person_code": "P001",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": true,
+    "paper_ids": [
+      "W4406158296",
+      "W4306691679"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K013",
+    "query": "T01",
+    "method": "B1",
+    "person_code": "P007",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4413136239",
+      "W4404647779"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K002",
+    "query": "T01",
+    "method": "B2",
+    "person_code": "P011",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R1",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4387951905",
+      "W4416057019"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K005",
+    "query": "T01",
+    "method": "B2",
+    "person_code": "P005",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4415426565",
+      "W4225151279"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K010",
+    "query": "T01",
+    "method": "B2",
+    "person_code": "P002",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R1",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4411254318"
+    ],
+    "fact_count": 1,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K004",
+    "query": "T01",
+    "method": "G",
+    "person_code": "P010",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": false,
+    "analysis_included": false,
+    "reason_label": "R1",
+    "personal_attribution_flag": true,
+    "paper_ids": [
+      "W4220871449",
+      "W2001439099"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K014",
+    "query": "T01",
+    "method": "G",
+    "person_code": "P015",
+    "interest": "conditional",
+    "entry": "unknown",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R1",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W7125634879"
+    ],
+    "fact_count": 1,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K016",
+    "query": "T01",
+    "method": "G",
+    "person_code": "P005",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4415426565",
+      "W4407763391"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-M"
+  },
+  {
+    "card_id": "K001",
+    "query": "T02",
+    "method": "B1",
+    "person_code": "P004",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4408145357",
+      "W4212927526"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K017",
+    "query": "T02",
+    "method": "B1",
+    "person_code": "P003",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4413122177",
+      "W4403919716"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K008",
+    "query": "T02",
+    "method": "B2",
+    "person_code": "P014",
+    "interest": "conditional",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R1",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4413120686",
+      "W4389776171"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K012",
+    "query": "T02",
+    "method": "B2",
+    "person_code": "P012",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4402940010",
+      "W4413122606"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K015",
+    "query": "T02",
+    "method": "B2",
+    "person_code": "P009",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4401415993",
+      "W4416429577"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K006",
+    "query": "T02",
+    "method": "G",
+    "person_code": "P006",
+    "interest": "conditional",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4405844877",
+      "W4409168397"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K007",
+    "query": "T02",
+    "method": "G",
+    "person_code": "P013",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4403919716",
+      "W4413010695"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  },
+  {
+    "card_id": "K011",
+    "query": "T02",
+    "method": "G",
+    "person_code": "P004",
+    "interest": "yes",
+    "entry": "yes",
+    "identity_eligible": true,
+    "analysis_included": true,
+    "reason_label": "R2",
+    "personal_attribution_flag": false,
+    "paper_ids": [
+      "W4417508632",
+      "W4386763894"
+    ],
+    "fact_count": 2,
+    "reason_reviewer": "V-E"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-26T10:26:06.239726+00:00",
+  "hashes": {
+    "finish_open_study.py": "1fa152bc740edb3ed6d0d902f2a3552cb2b18574ad7a65902f6d8f4415de0314",
+    "identity_decisions.json": "bffb6255854329d958ec7f2eb495dc825b15aa723ce6d9e7ceaf5daed3660880",
+    "selected_candidates.json": "d50296d3b96237b02e92f2bf902d5cc2fc452447e57414e219b681f99ffcfb19",
+    "inference_inputs.jsonl": "1d5a8766b3b5516bb9fbdc80090c911e334a69a09b0c2c2841fafefb776b7aa7",
+    "prompt.txt": "98fdc9f6a015bee9b877dd64a634bbd54f5c290e862e1afef80929a06c86dc49",
+    "generation_config.json": "77b35ed9e414b5b0da524c7c9abd052661b4579e2100ec536b482de59450868c",
+    "retrieved_graph.json": "8380ca45bbb4944ac99bbe73268da8ddae2ae094d04cc0ce8926ce04528f5ffd",
+    "protocol.md": "c7d80c6d2e7d533cedc18995351a6c8af6e1ddb7714a37bd4bc25d6a307ef175"
+  }
+}

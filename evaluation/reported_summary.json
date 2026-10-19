@@ -1,0 +1,199 @@
+{
+  "identity_eligible": {
+    "T01": {
+      "cards": 8,
+      "distinct_candidates": 7,
+      "interest": {
+        "yes": 3,
+        "conditional": 5,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 5
+      },
+      "yes_unique_candidates": 2
+    },
+    "T02": {
+      "cards": 8,
+      "distinct_candidates": 7,
+      "interest": {
+        "yes": 6,
+        "conditional": 2,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 8,
+        "no": 0,
+        "unknown": 0
+      },
+      "yes_unique_candidates": 5
+    }
+  },
+  "pooled_descriptive": {
+    "cards": 16,
+    "distinct_candidates": 14,
+    "interest": {
+      "yes": 9,
+      "conditional": 7,
+      "no": 0,
+      "unknown": 0
+    },
+    "entry": {
+      "yes": 11,
+      "no": 0,
+      "unknown": 5
+    },
+    "yes_unique_candidates": 7
+  },
+  "excluded_from_primary_utility": [
+    "K004"
+  ],
+  "by_query_and_method": [
+    {
+      "query": "T01",
+      "method": "B1",
+      "cards": 3,
+      "distinct_candidates": 3,
+      "interest": {
+        "yes": 1,
+        "conditional": 2,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 2
+      },
+      "yes_unique_candidates": 1
+    },
+    {
+      "query": "T01",
+      "method": "B2",
+      "cards": 3,
+      "distinct_candidates": 3,
+      "interest": {
+        "yes": 1,
+        "conditional": 2,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 2
+      },
+      "yes_unique_candidates": 1
+    },
+    {
+      "query": "T01",
+      "method": "G",
+      "cards": 2,
+      "distinct_candidates": 2,
+      "interest": {
+        "yes": 1,
+        "conditional": 1,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 1
+      },
+      "yes_unique_candidates": 1
+    },
+    {
+      "query": "T02",
+      "method": "B1",
+      "cards": 2,
+      "distinct_candidates": 2,
+      "interest": {
+        "yes": 2,
+        "conditional": 0,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 0
+      },
+      "yes_unique_candidates": 2
+    },
+    {
+      "query": "T02",
+      "method": "B2",
+      "cards": 3,
+      "distinct_candidates": 3,
+      "interest": {
+        "yes": 2,
+        "conditional": 1,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 0
+      },
+      "yes_unique_candidates": 2
+    },
+    {
+      "query": "T02",
+      "method": "G",
+      "cards": 3,
+      "distinct_candidates": 3,
+      "interest": {
+        "yes": 2,
+        "conditional": 1,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 3,
+        "no": 0,
+        "unknown": 0
+      },
+      "yes_unique_candidates": 2
+    }
+  ],
+  "reason_label_vs_interest": {
+    "R2": {
+      "cards": 12,
+      "distinct_candidates": 10,
+      "interest": {
+        "yes": 9,
+        "conditional": 3,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 10,
+        "no": 0,
+        "unknown": 2
+      },
+      "yes_unique_candidates": 7
+    },
+    "R1": {
+      "cards": 4,
+      "distinct_candidates": 4,
+      "interest": {
+        "yes": 0,
+        "conditional": 4,
+        "no": 0,
+        "unknown": 0
+      },
+      "entry": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 3
+      },
+      "yes_unique_candidates": 0
+    }
+  }
+}

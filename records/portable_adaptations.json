@@ -1,0 +1,18 @@
+{
+  "source_hashes": {
+    "run_open_study.py": "8039988e5520c38673d2c607b45cc7001bd6c66b548f15a64d0d5f6512b0a96e",
+    "reviewed_ranking.py": "b33816fca31fbf8d5dcd8b196dae753eed920af4792c4fad003f873f33530300",
+    "finish_open_study.py": "1fa152bc740edb3ed6d0d902f2a3552cb2b18574ad7a65902f6d8f4415de0314",
+    "fetch_public_data.py": "4b00bb1c598562435aea1f0b6272522e645cb0c2016185009ebf0879697d4b0e",
+    "retrieval_rules.py": "925340b5428fbddddd4aaec58ca6f0f3036bd945378165283d3254e0d621783c"
+  },
+  "changes": [
+    "Paths are package-relative or explicit STUDY_WORK_DIR / STUDY_MODEL_DIR.",
+    "Private requester-name matching and internal mapping files are omitted; the frozen coded exclusion set is retained.",
+    "Ranking arithmetic is copied from the archived reviewed-ranking function; output returns values instead of replacing historical artifacts.",
+    "Normalization retains the actual selection/tokenization algorithm but omits requester identity discovery and its private output.",
+    "Paid and network operations are never invoked by offline replay; an explicit paid opt-in is required for new generation.",
+    "No unrelated historical corpus, API secrets, model caches, participant names, signed forms or raw feedback are included.",
+    "Embeddings (87,101 x 384) and raw API pages are not distributed; frozen dense similarities, model revision, encoder implementation, runtime and chunk hashes are included."
+  ]
+}

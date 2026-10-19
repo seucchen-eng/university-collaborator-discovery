@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-26T09:39:50.161254+00:00",
+  "hashes": {
+    "protocol.md": "c7d80c6d2e7d533cedc18995351a6c8af6e1ddb7714a37bd4bc25d6a307ef175",
+    "run_open_study.py": "8039988e5520c38673d2c607b45cc7001bd6c66b548f15a64d0d5f6512b0a96e",
+    "retrieval_rules.py": "925340b5428fbddddd4aaec58ca6f0f3036bd945378165283d3254e0d621783c",
+    "queries.json": "bbe0bbbb0382e6100599ffa849504954c16eb7bad0ba29dc622fd1492fb22d54",
+    "retrieval_config.json": "ea353bfd4ff542c1070001f0c0b25eef43ce24e38487899ecfae1ba4e67d8467",
+    "author_resolution_rules.json": "e1d03b8b65625e0466e8427c0eec78d4d5f7f349c5b39241da52448a1e6deb90",
+    "corpus.jsonl": "a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781",
+    "author_groups.json": "9dca60db2bddfdb98c0dd87961e670c8c4c11490d6eae0ebe58876f39ba0f1cd",
+    "coauthor_exclusions.json": "4478ea596bc485c513bd532e04f226061092693f965becbbb122970fc40f6d0c",
+    "bm25_scores.npy": "3067790f283af40ef2f3382fd046bb42f2b5fe18c0ce16790de65610c79c2121"
+  }
+}

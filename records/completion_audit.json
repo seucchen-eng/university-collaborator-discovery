@@ -1,0 +1,206 @@
+{
+  "utc": "2026-09-26T10:51:23.961806+00:00",
+  "passed": true,
+  "checks": 2358,
+  "failed": [],
+  "cells": [
+    {
+      "query": "T01",
+      "method": "B1",
+      "cards_selected": 3,
+      "names": [
+        "白晶",
+        "张法明",
+        "孙桂芳"
+      ],
+      "people": [
+        "JB",
+        "FMZ",
+        "GFS"
+      ],
+      "evidence_papers": 6,
+      "reviewed_groups": 5,
+      "unfilled_slots": 0,
+      "facets": [
+        "experiment",
+        "microstructure",
+        "physical_model",
+        "properties"
+      ],
+      "facet_coverage_descriptive_only": 0.8
+    },
+    {
+      "query": "T01",
+      "method": "B2",
+      "cards_selected": 3,
+      "names": [
+        "孙东科",
+        "郭彤",
+        "方峰"
+      ],
+      "people": [
+        "DKS",
+        "TG",
+        "FF"
+      ],
+      "evidence_papers": 5,
+      "reviewed_groups": 5,
+      "unfilled_slots": 0,
+      "facets": [
+        "experiment",
+        "learning",
+        "microstructure",
+        "physical_model",
+        "properties"
+      ],
+      "facet_coverage_descriptive_only": 1.0
+    },
+    {
+      "query": "T01",
+      "method": "G",
+      "cards_selected": 3,
+      "names": [
+        "蒋建清",
+        "孙东科",
+        "沈宝龙"
+      ],
+      "people": [
+        "JQJ",
+        "DKS",
+        "BLS"
+      ],
+      "evidence_papers": 5,
+      "reviewed_groups": 3,
+      "unfilled_slots": 0,
+      "facets": [
+        "experiment",
+        "learning",
+        "microstructure",
+        "physical_model",
+        "properties"
+      ],
+      "facet_coverage_descriptive_only": 1.0
+    },
+    {
+      "query": "T02",
+      "method": "B1",
+      "cards_selected": 2,
+      "names": [
+        "曹鹏",
+        "时龙兴"
+      ],
+      "people": [
+        "PC",
+        "LXS"
+      ],
+      "evidence_papers": 4,
+      "reviewed_groups": 12,
+      "unfilled_slots": 1,
+      "facets": [
+        "data",
+        "layout",
+        "learning",
+        "timing",
+        "validation"
+      ],
+      "facet_coverage_descriptive_only": 1.0
+    },
+    {
+      "query": "T02",
+      "method": "B2",
+      "cards_selected": 3,
+      "names": [
+        "王翕",
+        "单伟伟",
+        "杨军"
+      ],
+      "people": [
+        "XW",
+        "WWSH",
+        "JY"
+      ],
+      "evidence_papers": 6,
+      "reviewed_groups": 8,
+      "unfilled_slots": 0,
+      "facets": [
+        "data",
+        "layout",
+        "learning",
+        "timing",
+        "validation"
+      ],
+      "facet_coverage_descriptive_only": 1.0
+    },
+    {
+      "query": "T02",
+      "method": "G",
+      "cards_selected": 3,
+      "names": [
+        "曹鹏",
+        "闫浩",
+        "朱彬武"
+      ],
+      "people": [
+        "PC",
+        "HY",
+        "BWZ"
+      ],
+      "evidence_papers": 6,
+      "reviewed_groups": 9,
+      "unfilled_slots": 0,
+      "facets": [
+        "data",
+        "layout",
+        "learning",
+        "timing",
+        "validation"
+      ],
+      "facet_coverage_descriptive_only": 1.0
+    }
+  ],
+  "output": {
+    "cells": 6,
+    "cards": 17,
+    "unique_people": 15,
+    "evidence_papers": 30,
+    "claims": 32,
+    "exact_quotes": 32,
+    "quote_length_failures": 0,
+    "unallowed_paper_failures": 0,
+    "repeated_fact_paper_cards": 0,
+    "all_order_valid": true,
+    "human_validation_status": "not yet evaluated"
+  },
+  "scan": {
+    "downloaded_records": 88856,
+    "eligible_papers": 87101,
+    "exclusions": {
+      "abstract_position_gap": 111,
+      "retracted": 159,
+      "missing_title": 5,
+      "no_resolved_SEU_author_id": 1475
+    },
+    "duplicates": 5,
+    "author_groups": 59594,
+    "eligible_author_groups": 20685,
+    "truncated_records": 38171,
+    "query_coauthor_excluded_groups": {
+      "T01": 0,
+      "T02": 55
+    },
+    "seconds": 155.47591140004806,
+    "corpus_sha256": "a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781"
+  },
+  "final_coauthor_excluded_groups": {
+    "T01": 0,
+    "T02": 40
+  },
+  "scan_note": "scan.query_coauthor_excluded_groups is the original pre-review snapshot (T02=55); final ranking uses coauthor_exclusions_verified.json (T02=40).",
+  "cost_upper_cny": 0.0780336,
+  "historical_plus_current_upper_cny": 5.4622944,
+  "graph_nodes": 1869,
+  "graph_edges": 4240,
+  "generative_api_seconds": 24.432094300049357,
+  "new_human_scores": 0,
+  "scope": "Accounting, provenance, graph spans, selected-object and budget integrity only; not semantic support or usefulness."
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-26T10:16:59.372967+00:00",
+  "hashes": {
+    "retrieval_trace.json": "00945413ee9233c4a8145d44026b9d8a8eb78ed4ddc881d8365503cb5e8d59f3",
+    "identity_review_queue.json": "ef763d7bee77f813b720f4f0288c6da6c41211fe26eba2d347d8f9f15e3d2b6e",
+    "retrieved_papers.jsonl": "6354700db756ae661fb9211fd5e33b2ef9b3a3bc587dd7a7ef8cb294f3205e80",
+    "dense_scores.npy": "bff2d3d7fed3767119a755d1228eb63be5e6940680f5835c5a380bfe15943551",
+    "embedding_summary.json": "c06669885d4d33a0a524a01f1bacbdac77655ac9d1b652acacbc01f435502065",
+    "reviewed_ranking.py": "b33816fca31fbf8d5dcd8b196dae753eed920af4792c4fad003f873f33530300",
+    "coauthor_exclusions_verified.json": "2afc5ce28d3d9dd7eaa9accbeaf0a65f46b171c840ea00b5418c21634855675c",
+    "requester_review_freeze.json": "f2f115b8fb3b436bed13d3570641882bbfe0ce322201e08d0dc0f6868f27fd62",
+    "retrieval_amendment.md": "792a06856a2780a0e9d5c922884bd134b1f099da91d16c3dde15a6cdec86222d"
+  }
+}

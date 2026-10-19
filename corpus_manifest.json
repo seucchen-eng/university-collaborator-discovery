@@ -1,0 +1,44 @@
+{
+  "format": "Concatenate decompressed parts in listed order to recover original corpus.jsonl byte-for-byte.",
+  "rows": 87101,
+  "original_bytes": 559576406,
+  "original_sha256": "a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781",
+  "parts": [
+    {
+      "file": "corpus/part_01.jsonl.gz",
+      "rows": 15000,
+      "bytes": 12745551,
+      "sha256": "c12b14fe93c28f7b646e82f4407b6104a4f1493a5d9a3ae47b0eead0503bc253"
+    },
+    {
+      "file": "corpus/part_02.jsonl.gz",
+      "rows": 15000,
+      "bytes": 12840029,
+      "sha256": "f2755f83e0209b26ff54007bb3cfbc4a1b42b1773bc741d1de83b54cb6881677"
+    },
+    {
+      "file": "corpus/part_03.jsonl.gz",
+      "rows": 15000,
+      "bytes": 14585178,
+      "sha256": "3b5300a0c2dbdb70835aef0e1a2447d56496f1bce86ac9988e278d22f3920b5f"
+    },
+    {
+      "file": "corpus/part_04.jsonl.gz",
+      "rows": 15000,
+      "bytes": 14798458,
+      "sha256": "19dad14e600368a0f92ec392fb8a21eab7d4c372a6c3b2032e429ef1334d2c43"
+    },
+    {
+      "file": "corpus/part_05.jsonl.gz",
+      "rows": 15000,
+      "bytes": 14994950,
+      "sha256": "3847aaadaf598ce6ff5944c55008d061e981941cc44192cc98a6bc2b73f337f9"
+    },
+    {
+      "file": "corpus/part_06.jsonl.gz",
+      "rows": 12101,
+      "bytes": 12261791,
+      "sha256": "084c19ccfb60aab9ceaf9434e0778dc3a0fb4f6a22fe412e4f22b1e798973a41"
+    }
+  ]
+}

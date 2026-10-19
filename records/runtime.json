@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_count": 32,
+  "numpy": "2.5.3",
+  "onnxruntime": "1.30.0",
+  "tokenizers": "0.23.2",
+  "workers": 4,
+  "intra_op_threads_per_worker": 4,
+  "inter_op_threads": 1,
+  "batch_size": 32,
+  "started_utc": "2026-09-26T10:02:37.601712+00:00"
+}

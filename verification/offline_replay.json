@@ -1,0 +1,143 @@
+{
+  "verification_date_utc": "2026-10-19T07:14:00Z",
+  "scope": "Offline frozen-input replay; no new model outputs or human judgments",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "checks": {
+    "byte_exact_corpus": {
+      "rows": 87101,
+      "sha256": "a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781"
+    },
+    "corpus_fields": {
+      "source_and_index_hashes": 174202,
+      "signal_sets": 87101,
+      "truncated_records": 38171,
+      "groups": 59594,
+      "eligible_groups": 20685
+    },
+    "BM25": {
+      "values": 174202,
+      "array_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "dense_scores": {
+      "values": 174202,
+      "hash_verified": true,
+      "recomputed_embeddings": false
+    },
+    "ranking": {
+      "cells": 6,
+      "ranked_author_rows": 1553,
+      "paper_pools": 1200,
+      "exact_objects": true
+    },
+    "identity_and_inputs": {
+      "selected_cards": 17,
+      "reviewed_group_instances": 42,
+      "input_packets_exact": 6,
+      "scope": "Replays recorded operational decisions; does not revalidate personal identity."
+    },
+    "graph": {
+      "nodes": 1869,
+      "edges": 4240,
+      "exact_signal_spans": 2298
+    },
+    "generation_records": {
+      "requests": 6,
+      "responses": 6,
+      "facts": 32,
+      "exact_quotes": 32,
+      "new_api_calls": 0
+    },
+    "human_aggregation": {
+      "generated_cards": 17,
+      "generated_people": 15,
+      "selected_papers": 30,
+      "facts": 32,
+      "exact_quotes": 32,
+      "initial_fact_agreement": 31,
+      "final_fact_labels": {
+        "F2": 32
+      },
+      "all_rationale_labels": {
+        "R2": 12,
+        "R1": 5
+      },
+      "personal_attribution_flags": 3,
+      "eligible_cards": 16,
+      "eligible_people": 14,
+      "interest": {
+        "yes": 9,
+        "conditional": 7
+      },
+      "entry": {
+        "yes": 11,
+        "unknown": 5
+      },
+      "definite_interest_people": 7,
+      "excluded_card_ids": [
+        "K004"
+      ],
+      "cells": [
+        {
+          "query": "T01",
+          "method": "B1",
+          "eligible": 3,
+          "definite": 1,
+          "conditional": 2,
+          "entry_yes": 1,
+          "entry_uncertain": 2
+        },
+        {
+          "query": "T01",
+          "method": "B2",
+          "eligible": 3,
+          "definite": 1,
+          "conditional": 2,
+          "entry_yes": 1,
+          "entry_uncertain": 2
+        },
+        {
+          "query": "T01",
+          "method": "G",
+          "eligible": 2,
+          "definite": 1,
+          "conditional": 1,
+          "entry_yes": 1,
+          "entry_uncertain": 1
+        },
+        {
+          "query": "T02",
+          "method": "B1",
+          "eligible": 2,
+          "definite": 2,
+          "conditional": 0,
+          "entry_yes": 2,
+          "entry_uncertain": 0
+        },
+        {
+          "query": "T02",
+          "method": "B2",
+          "eligible": 3,
+          "definite": 2,
+          "conditional": 1,
+          "entry_yes": 3,
+          "entry_uncertain": 0
+        },
+        {
+          "query": "T02",
+          "method": "G",
+          "eligible": 3,
+          "definite": 2,
+          "conditional": 1,
+          "entry_yes": 3,
+          "entry_uncertain": 0
+        }
+      ]
+    }
+  },
+  "all_passed": true,
+  "seconds": 83.26670300000114
+}

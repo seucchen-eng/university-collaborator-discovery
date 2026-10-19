@@ -1,0 +1,130 @@
+[
+  {
+    "year": 2010,
+    "expected_at_start": 3347,
+    "downloaded": 3347,
+    "pages": 35,
+    "seconds": 0.7029999999795109,
+    "utc": "2026-09-26T09:18:53.609277+00:00"
+  },
+  {
+    "year": 2011,
+    "expected_at_start": 3205,
+    "downloaded": 3205,
+    "pages": 34,
+    "seconds": 0.6870000000344589,
+    "utc": "2026-09-26T09:18:53.602505+00:00"
+  },
+  {
+    "year": 2012,
+    "expected_at_start": 3090,
+    "downloaded": 3090,
+    "pages": 32,
+    "seconds": 0.6870000000344589,
+    "utc": "2026-09-26T09:18:53.600388+00:00"
+  },
+  {
+    "year": 2013,
+    "expected_at_start": 2874,
+    "downloaded": 2874,
+    "pages": 30,
+    "seconds": 0.6870000000344589,
+    "utc": "2026-09-26T09:18:53.594342+00:00"
+  },
+  {
+    "year": 2014,
+    "expected_at_start": 3012,
+    "downloaded": 3012,
+    "pages": 32,
+    "seconds": 0.9379999999655411,
+    "utc": "2026-09-26T09:18:54.528442+00:00"
+  },
+  {
+    "year": 2015,
+    "expected_at_start": 3416,
+    "downloaded": 3416,
+    "pages": 36,
+    "seconds": 1.015999999945052,
+    "utc": "2026-09-26T09:18:54.618658+00:00"
+  },
+  {
+    "year": 2016,
+    "expected_at_start": 3807,
+    "downloaded": 3807,
+    "pages": 40,
+    "seconds": 1.202999999979511,
+    "utc": "2026-09-26T09:18:54.821665+00:00"
+  },
+  {
+    "year": 2017,
+    "expected_at_start": 4248,
+    "downloaded": 4248,
+    "pages": 44,
+    "seconds": 1.375,
+    "utc": "2026-09-26T09:18:54.982038+00:00"
+  },
+  {
+    "year": 2018,
+    "expected_at_start": 4838,
+    "downloaded": 4838,
+    "pages": 50,
+    "seconds": 1.2809999999590218,
+    "utc": "2026-09-26T09:18:55.822771+00:00"
+  },
+  {
+    "year": 2019,
+    "expected_at_start": 5800,
+    "downloaded": 5800,
+    "pages": 59,
+    "seconds": 111.20299999997951,
+    "utc": "2026-09-26T09:20:45.808526+00:00"
+  },
+  {
+    "year": 2020,
+    "expected_at_start": 6074,
+    "downloaded": 6074,
+    "pages": 62,
+    "seconds": 85.20400000002701,
+    "utc": "2026-09-26T09:20:20.037500+00:00"
+  },
+  {
+    "year": 2021,
+    "expected_at_start": 7047,
+    "downloaded": 7047,
+    "pages": 72,
+    "seconds": 1.562000000034459,
+    "utc": "2026-09-26T09:18:56.556166+00:00"
+  },
+  {
+    "year": 2022,
+    "expected_at_start": 8438,
+    "downloaded": 8438,
+    "pages": 86,
+    "seconds": 1.8290000000270084,
+    "utc": "2026-09-26T09:18:57.661038+00:00"
+  },
+  {
+    "year": 2023,
+    "expected_at_start": 8965,
+    "downloaded": 8965,
+    "pages": 91,
+    "seconds": 41.56299999996554,
+    "utc": "2026-09-26T09:19:38.113235+00:00"
+  },
+  {
+    "year": 2024,
+    "expected_at_start": 9936,
+    "downloaded": 9936,
+    "pages": 101,
+    "seconds": 1.75,
+    "utc": "2026-09-26T09:18:59.408731+00:00"
+  },
+  {
+    "year": 2025,
+    "expected_at_start": 10759,
+    "downloaded": 10759,
+    "pages": 109,
+    "seconds": 110.60900000005495,
+    "utc": "2026-09-26T09:20:50.017780+00:00"
+  }
+]

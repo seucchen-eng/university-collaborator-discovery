@@ -1,0 +1,23 @@
+{
+  "initial_papers": 200,
+  "per_author_papers": 2,
+  "review_prefix": 12,
+  "candidate_limit": 3,
+  "min_author_papers": 2,
+  "recent_year": 2020,
+  "graph_relevance_weight": 0.6,
+  "graph_facet_weight": 0.4,
+  "max_wordpieces": 256,
+  "encoder_batch_size": 32,
+  "onnx_threads": 4,
+  "corpus_years": [
+    2010,
+    2025
+  ],
+  "text_definition": "title + newline + OpenAlex abstract",
+  "common_visibility": "leading 254 content WordPieces",
+  "facet_text": "same visible span",
+  "encoder_workers": 4,
+  "onnx_threads_per_worker": 4,
+  "chunk_size": 1024
+}

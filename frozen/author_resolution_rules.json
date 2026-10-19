@@ -1,0 +1,103 @@
+[
+  {
+    "person_code": "T01-P02",
+    "local_key": "SEU-FF",
+    "ids": [
+      "A5003225383",
+      "A5051763639"
+    ],
+    "names": [
+      "Feng Fang",
+      "Fang Feng"
+    ],
+    "raw_affiliation_pattern": "Mat(?:erials)?[ .]*(?:Sci|Science)",
+    "paper_doi_overrides": [
+      "10.1007/s11837-023-06174-x",
+      "10.1016/j.jmapro.2025.10.079"
+    ],
+    "status": "paper_level_mapping_supported; global_ORCID_unresolved",
+    "basis": "Official SEU materials faculty profile and publication-level SEU materials affiliation; keep both OpenAlex ORCIDs as conflicting source values, never select one as an independently verified personal ORCID.",
+    "sources": [
+      "https://smse.seu.edu.cn/2011/0327/c2590a83596/page.htm",
+      "https://link.springer.com/article/10.1007/s11837-023-06174-x",
+      "https://www.sciencedirect.com/science/article/pii/S1526612525011715"
+    ],
+    "checked_by": "AI research assistant; public-source desktop review",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false
+  },
+  {
+    "person_code": "T01-P05",
+    "local_key": "SEU-JL",
+    "ids": [
+      "A5100421137",
+      "A5100645531"
+    ],
+    "names": [
+      "Ji Li",
+      "Li Ji"
+    ],
+    "raw_affiliation_pattern": "MEMS|Micro.?electro.?mechanical",
+    "paper_doi_overrides": [
+      "10.1007/s10443-022-10061-0",
+      "10.1186/s10033-023-00912-7"
+    ],
+    "status": "paper_level_mapping_supported; global_ORCID_unresolved",
+    "basis": "Both publisher author-affiliation lists assign Ji Li to SEU MEMS; the current official profile identifies the MEMS faculty member. No whole-profile merge outside those paper/affiliation conditions.",
+    "sources": [
+      "https://ic.seu.edu.cn/liji/main.htm",
+      "https://link.springer.com/article/10.1007/s10443-022-10061-0",
+      "https://link.springer.com/article/10.1186/s10033-023-00912-7"
+    ],
+    "checked_by": "AI research assistant; public-source desktop review",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false
+  },
+  {
+    "person_code": "T01-P07",
+    "local_key": "A5063370042",
+    "ids": [
+      "A5063370042"
+    ],
+    "status": "profile_correspondence_supported; MP19_graph_edge_missing",
+    "basis": "Name and SEU/Purdue trajectory agree between the official faculty profile and ORCID-linked OpenAlex profile; MP19 remains an expansion work without author/affiliation edges and is not inserted into institutional retrieval.",
+    "sources": [
+      "https://me.seu.edu.cn/2023/1030/c31182a470653/pagem.htm",
+      "https://orcid.org/0000-0002-8963-2076",
+      "https://openalex.org/A5063370042"
+    ],
+    "checked_by": "AI research assistant; public-source desktop review",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false
+  },
+  {
+    "person_code": "T01-P03",
+    "ids": [
+      "A5057749252"
+    ],
+    "status": "retain_SEU_paper_links_only; profile_contamination_signal",
+    "basis": "Selected SEU papers and known ORCID support the local correspondence. Multiple observed ORCIDs and medical affiliations prevent wholesale profile import.",
+    "sources": [
+      "https://me.seu.edu.cn/sgf_50521/list.htm",
+      "https://me.seu.edu.cn/2014/1218/c1393a113158/pagem.htm"
+    ],
+    "checked_by": "AI research assistant; public-source desktop review",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false
+  },
+  {
+    "person_code": "T02-P04",
+    "ids": [
+      "A5046599843"
+    ],
+    "status": "retain_SEU_paper_links_only; profile_contamination_signal",
+    "basis": "Use paper-level SEU affiliations and the official IC faculty profile. Multiple observed ORCIDs and divergent last-known institutions are not treated as a current-employment decision.",
+    "sources": [
+      "https://ic.seu.edu.cn/caopeng/main.htm",
+      "https://doi.org/10.3390/electronics11223670"
+    ],
+    "checked_by": "AI research assistant; public-source desktop review",
+    "checked_date": "2026-09-26",
+    "independent_human_label": false
+  }
+]

@@ -1,0 +1,774 @@
+[
+  {
+    "query_id": "T01",
+    "method": "B1",
+    "checked_until_stop": [
+      {
+        "author_key": "A5115590637",
+        "rank": 1,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5012622330",
+        "rank": 2,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5032469629",
+        "rank": 3,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5101804537",
+        "rank": 4,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5057749252",
+        "rank": 5,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5115590637",
+        "score": 0.9882250130176544,
+        "facets": [
+          "microstructure",
+          "physical_model",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4413136239",
+            "score": 1.0
+          },
+          {
+            "uid": "W4404647779",
+            "score": 0.9764500260353088
+          }
+        ],
+        "rank": 1,
+        "person_id": "JB",
+        "name": "白晶",
+        "college": "Materials Science and Engineering",
+        "profile_url": "https://smse.seu.edu.cn/2009/1207/c2590a83589/page.htm",
+        "candidate_id": "JB"
+      },
+      {
+        "author_key": "A5012622330",
+        "score": 0.818843424320221,
+        "facets": [
+          "microstructure",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4400583936",
+            "score": 0.9083773493766785
+          },
+          {
+            "uid": "W4412879043",
+            "score": 0.7293094992637634
+          }
+        ],
+        "rank": 2,
+        "person_id": "FMZ",
+        "name": "张法明",
+        "college": "Materials Science and Engineering",
+        "profile_url": "https://smse.seu.edu.cn/2014/0320/c2590a83616/page.htm",
+        "candidate_id": "FMZ"
+      },
+      {
+        "author_key": "A5057749252",
+        "score": 0.8075113892555237,
+        "facets": [
+          "experiment",
+          "microstructure",
+          "physical_model",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4406158296",
+            "score": 0.8134981393814087
+          },
+          {
+            "uid": "W4306691679",
+            "score": 0.8015246391296387
+          }
+        ],
+        "rank": 5,
+        "person_id": "GFS",
+        "name": "孙桂芳",
+        "college": "Mechanical Engineering",
+        "profile_url": "https://me.seu.edu.cn/sgf_50521/list.htm",
+        "candidate_id": "GFS"
+      }
+    ]
+  },
+  {
+    "query_id": "T01",
+    "method": "B2",
+    "checked_until_stop": [
+      {
+        "author_key": "A5103274896",
+        "rank": 1,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5086155253",
+        "rank": 2,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5100427555",
+        "rank": 3,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5100786391",
+        "rank": 4,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "SEU-FF",
+        "rank": 5,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5103274896",
+        "score": 0.5886361598968506,
+        "facets": [
+          "experiment",
+          "microstructure",
+          "physical_model"
+        ],
+        "papers": [
+          {
+            "uid": "W4415426565",
+            "score": 0.6187378764152527
+          },
+          {
+            "uid": "W4225151279",
+            "score": 0.5585344433784485
+          }
+        ],
+        "rank": 1,
+        "person_id": "DKS",
+        "name": "孙东科",
+        "college": "Mechanical Engineering",
+        "profile_url": "https://me.seu.edu.cn/2020/1231/c31182a358424/page1.psp",
+        "candidate_id": "DKS"
+      },
+      {
+        "author_key": "A5100786391",
+        "score": 0.5718375444412231,
+        "facets": [
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4411254318",
+            "score": 0.5718375444412231
+          }
+        ],
+        "rank": 4,
+        "person_id": "TG",
+        "name": "郭彤",
+        "college": "Civil Engineering",
+        "profile_url": "https://civil.seu.edu.cn/2020/1022/c30576a350745/pagem10.htm",
+        "candidate_id": "TG"
+      },
+      {
+        "author_key": "SEU-FF",
+        "score": 0.5529415309429169,
+        "facets": [
+          "learning",
+          "microstructure",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4387951905",
+            "score": 0.5726857781410217
+          },
+          {
+            "uid": "W4416057019",
+            "score": 0.533197283744812
+          }
+        ],
+        "rank": 5,
+        "person_id": "FF",
+        "name": "方峰",
+        "college": "Materials Science and Engineering",
+        "profile_url": "https://smse.seu.edu.cn/2011/0327/c2590a83596/page.htm",
+        "candidate_id": "FF"
+      }
+    ]
+  },
+  {
+    "query_id": "T01",
+    "method": "G",
+    "checked_until_stop": [
+      {
+        "author_key": "A5090707556",
+        "rank": 1,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5103274896",
+        "rank": 2,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5042226686",
+        "rank": 3,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5090707556",
+        "score": 0.6786083996295929,
+        "facets": [
+          "experiment",
+          "learning",
+          "microstructure",
+          "physical_model",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4220871449",
+            "score": 0.493848979473114
+          },
+          {
+            "uid": "W2001439099",
+            "score": 0.4348456859588623
+          }
+        ],
+        "rank": 1,
+        "person_id": "JQJ",
+        "name": "蒋建清",
+        "college": "Materials Science and Engineering",
+        "profile_url": "https://smse.seu.edu.cn/jjq/2023/0811/c29142a456438/page.htm",
+        "candidate_id": "JQJ"
+      },
+      {
+        "author_key": "A5103274896",
+        "score": 0.6416422617435455,
+        "facets": [
+          "experiment",
+          "microstructure",
+          "physical_model",
+          "properties"
+        ],
+        "papers": [
+          {
+            "uid": "W4415426565",
+            "score": 0.6187378764152527
+          },
+          {
+            "uid": "W4407763391",
+            "score": 0.4534029960632324
+          }
+        ],
+        "rank": 2,
+        "person_id": "DKS",
+        "name": "孙东科",
+        "college": "Mechanical Engineering",
+        "profile_url": "https://me.seu.edu.cn/2020/1231/c31182a358424/page1.psp",
+        "candidate_id": "DKS"
+      },
+      {
+        "author_key": "A5042226686",
+        "score": 0.6388092947006225,
+        "facets": [
+          "experiment",
+          "learning",
+          "microstructure",
+          "physical_model"
+        ],
+        "papers": [
+          {
+            "uid": "W7125634879",
+            "score": 0.5313488245010376
+          }
+        ],
+        "rank": 3,
+        "person_id": "BLS",
+        "name": "沈宝龙",
+        "college": "Materials Science and Engineering",
+        "profile_url": "https://smse.seu.edu.cn/2018/1023/c2590a243876/pagem.htm",
+        "candidate_id": "BLS"
+      }
+    ]
+  },
+  {
+    "query_id": "T02",
+    "method": "B1",
+    "checked_until_stop": [
+      {
+        "author_key": "A5003692319",
+        "rank": 1,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5046599843",
+        "rank": 2,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5101976404",
+        "rank": 3,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5073716560",
+        "rank": 4,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5007813793",
+        "rank": 5,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5009441608",
+        "rank": 6,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5027887959",
+        "rank": 7,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5001640816",
+        "rank": 8,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5016174011",
+        "rank": 9,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5101499715",
+        "rank": 10,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5085746012",
+        "rank": 11,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5053598579",
+        "rank": 12,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5046599843",
+        "score": 0.8186914026737213,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "timing",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4408145357",
+            "score": 1.0
+          },
+          {
+            "uid": "W4212927526",
+            "score": 0.6373828053474426
+          }
+        ],
+        "rank": 2,
+        "person_id": "PC",
+        "name": "曹鹏",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/caopeng/main.htm",
+        "candidate_id": "PC"
+      },
+      {
+        "author_key": "A5101499715",
+        "score": 0.6713516414165497,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "timing"
+        ],
+        "papers": [
+          {
+            "uid": "W4413122177",
+            "score": 0.7758673429489136
+          },
+          {
+            "uid": "W4403919716",
+            "score": 0.5668359398841858
+          }
+        ],
+        "rank": 10,
+        "person_id": "LXS",
+        "name": "时龙兴",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/shilongxing/main.htm",
+        "candidate_id": "LXS"
+      }
+    ]
+  },
+  {
+    "query_id": "T02",
+    "method": "B2",
+    "checked_until_stop": [
+      {
+        "author_key": "A5088178933",
+        "rank": 1,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5090014319",
+        "rank": 2,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5100442245",
+        "rank": 3,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5057291086",
+        "rank": 4,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5109281374",
+        "rank": 5,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5114549678",
+        "rank": 6,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5108768713",
+        "rank": 7,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5111351556",
+        "rank": 8,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5100442245",
+        "score": 0.5671316981315613,
+        "facets": [
+          "data",
+          "learning",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4401415993",
+            "score": 0.5763086080551147
+          },
+          {
+            "uid": "W4416429577",
+            "score": 0.5579547882080078
+          }
+        ],
+        "rank": 3,
+        "person_id": "XW",
+        "name": "王翕",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/wx/main.htm",
+        "candidate_id": "XW"
+      },
+      {
+        "author_key": "A5057291086",
+        "score": 0.5624703466892242,
+        "facets": [
+          "layout",
+          "learning",
+          "timing",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4413120686",
+            "score": 0.6528376340866089
+          },
+          {
+            "uid": "W4389776171",
+            "score": 0.4721030592918396
+          }
+        ],
+        "rank": 4,
+        "person_id": "WWSH",
+        "name": "单伟伟",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/shanweiwei/main.htm",
+        "candidate_id": "WWSH"
+      },
+      {
+        "author_key": "A5111351556",
+        "score": 0.5476592183113098,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4402940010",
+            "score": 0.6299866437911987
+          },
+          {
+            "uid": "W4413122606",
+            "score": 0.4653317928314209
+          }
+        ],
+        "rank": 8,
+        "person_id": "JY",
+        "name": "杨军",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/yangjun/main.htm",
+        "candidate_id": "JY"
+      }
+    ]
+  },
+  {
+    "query_id": "T02",
+    "method": "G",
+    "checked_until_stop": [
+      {
+        "author_key": "A5003692319",
+        "rank": 1,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5046599843",
+        "rank": 2,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5100587123",
+        "rank": 3,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5101450162",
+        "rank": 4,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5007813793",
+        "rank": 5,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5001640816",
+        "rank": 6,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5016174011",
+        "rank": 7,
+        "status": "unresolved",
+        "all_selected_papers_checked": false,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5040139371",
+        "rank": 8,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      },
+      {
+        "author_key": "A5027132950",
+        "rank": 9,
+        "status": "verified_for_this_run",
+        "all_selected_papers_checked": true,
+        "duplicate_person": false
+      }
+    ],
+    "selected": [
+      {
+        "author_key": "A5046599843",
+        "score": 0.6913104563951493,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "timing",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4417508632",
+            "score": 0.48535650968551636
+          },
+          {
+            "uid": "W4386763894",
+            "score": 0.4856783449649811
+          }
+        ],
+        "rank": 2,
+        "person_id": "PC",
+        "name": "曹鹏",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/caopeng/main.htm",
+        "candidate_id": "PC"
+      },
+      {
+        "author_key": "A5040139371",
+        "score": 0.6722600400447846,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "timing",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4403919716",
+            "score": 0.48475325107574463
+          },
+          {
+            "uid": "W4413010695",
+            "score": 0.42278021574020386
+          }
+        ],
+        "rank": 8,
+        "person_id": "HY",
+        "name": "闫浩",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/yanhao/main.htm",
+        "candidate_id": "HY"
+      },
+      {
+        "author_key": "A5027132950",
+        "score": 0.671425873041153,
+        "facets": [
+          "data",
+          "layout",
+          "learning",
+          "timing",
+          "validation"
+        ],
+        "papers": [
+          {
+            "uid": "W4405844877",
+            "score": 0.42806363105773926
+          },
+          {
+            "uid": "W4409168397",
+            "score": 0.47668927907943726
+          }
+        ],
+        "rank": 9,
+        "person_id": "BWZ",
+        "name": "朱彬武",
+        "college": "Integrated Circuits",
+        "profile_url": "https://ic.seu.edu.cn/zbw/main.htm",
+        "candidate_id": "BWZ"
+      }
+    ]
+  }
+]

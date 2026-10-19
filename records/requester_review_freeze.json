@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-26T10:06:07.607382+00:00",
+  "before_new_rankings_inspected": true,
+  "hashes": {
+    "reviewed_ranking.py": "b33816fca31fbf8d5dcd8b196dae753eed920af4792c4fad003f873f33530300",
+    "coauthor_exclusions_verified.json": "2afc5ce28d3d9dd7eaa9accbeaf0a65f46b171c840ea00b5418c21634855675c",
+    "requester_mapping_review_internal.json": "fea28a0dedfd3a8dfef5d989611a6b143d9aa9a8bbc39da9d57531d51a6e0255",
+    "retrieval_amendment.md": "792a06856a2780a0e9d5c922884bd134b1f099da91d16c3dde15a6cdec86222d"
+  }
+}

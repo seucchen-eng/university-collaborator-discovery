@@ -1,0 +1,29 @@
+{
+  "version": "open-v1",
+  "scope": "OpenAlex 2010-2025; frozen six-cell rerun",
+  "model": "deepseek-flash",
+  "documented_model_version": "DeepSeek-V4.1-Flash",
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "temperature": 0,
+  "thinking": {
+    "type": "disabled"
+  },
+  "reasoning_effort": "none",
+  "max_tokens": 3200,
+  "timeout_seconds": 60,
+  "response_format": {
+    "type": "json_object"
+  },
+  "study_budget_cny": 1.5,
+  "historical_reservation_cny": 10,
+  "historical_recorded_upper_estimate_cny": 5.3842608,
+  "user_total_budget_cny": 20,
+  "peak_input_cny_per_million": 2.4,
+  "peak_output_cny_per_million": 9.6,
+  "pricing_checked_date": "2026-09-26",
+  "pricing_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+  "pricing_note": "Official indexed pricing USD 0.3 input cache miss / 1.2 output; conservative conversion 8 CNY/USD; cache and off-peak discounts ignored.",
+  "content_scope": "Generic technical demand summaries and public bibliographic passages; exclude requester identities, raw intake forms and human feedback",
+  "authorization_basis": "User's official DeepSeek API authorization and 20 CNY cap; current instruction to implement and run the agreed comparison",
+  "model_pin_status": "API alias only; exact response model/fingerprint/created field retained, immutable provider version unavailable"
+}

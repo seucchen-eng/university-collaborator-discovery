@@ -1,0 +1,13 @@
+{
+  "cells": 6,
+  "cards": 17,
+  "unique_people": 15,
+  "evidence_papers": 30,
+  "claims": 32,
+  "exact_quotes": 32,
+  "quote_length_failures": 0,
+  "unallowed_paper_failures": 0,
+  "repeated_fact_paper_cards": 0,
+  "all_order_valid": true,
+  "human_validation_status": "not yet evaluated"
+}

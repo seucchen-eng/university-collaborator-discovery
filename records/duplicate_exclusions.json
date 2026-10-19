@@ -1,0 +1,27 @@
+[
+  {
+    "id": "https://openalex.org/W2292721601",
+    "doi": "10.1107/s1600536810021537",
+    "reason": "duplicate_doi_less_complete_or_higher_id"
+  },
+  {
+    "id": "https://openalex.org/W3154451338",
+    "doi": "10.1109/taslp.2021.3066047",
+    "reason": "duplicate_doi_less_complete_or_higher_id"
+  },
+  {
+    "id": "https://openalex.org/W35958341",
+    "doi": "10.21037/tlcr-22-465",
+    "reason": "duplicate_doi_less_complete"
+  },
+  {
+    "id": "https://openalex.org/W36231391",
+    "doi": "10.3390/ijerph191912093",
+    "reason": "duplicate_doi_less_complete"
+  },
+  {
+    "id": "https://openalex.org/W38420753",
+    "doi": "10.1021/acsbiomaterials.3c01866",
+    "reason": "duplicate_doi_less_complete"
+  }
+]

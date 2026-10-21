@@ -1,5 +1,7 @@
 # University collaborator discovery
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23529614.svg)](https://doi.org/10.5281/zenodo.23529614)
+
 Code and frozen study inputs for **University collaborator discovery using language models and source-linked publication evidence**, by Chao Chen, Chao Li, Youdong Wang and Haijian Zhu, Network and Information Center, Southeast University.
 
 The workflow turns a faculty research need into candidate collaboration cards with publication evidence and conditional rationales. The study covers two institutional needs and compares BM25, semantic retrieval, and association-based evidence selection. The results are descriptive; they do not establish ranking superiority or subsequent collaboration.

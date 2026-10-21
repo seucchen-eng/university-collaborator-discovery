@@ -12,6 +12,11 @@ authors:
   - family-names: Zhu
     given-names: Haijian
 version: 0.1.0
+doi: "10.5281/zenodo.23529615"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23529614"
+    description: "Concept DOI; resolves to the latest archived version of this software"
 repository-code: "https://github.com/seucchen-eng/university-collaborator-discovery"
 url: "https://github.com/seucchen-eng/university-collaborator-discovery"
 license: MIT

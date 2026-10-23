@@ -341,8 +341,8 @@
  },
  {
   "file": "RELEASE_STATUS.json",
-  "bytes": 2115,
-  "sha256": "333d9487dfc86591174ee2e7ece84d0e869dff6b28bff46f6e456432dfec4f51"
+  "bytes": 2145,
+  "sha256": "f4b93e8bd6df772eae24e675a89448257b8a877ba86e32d27b9c836204b5860a"
  },
  {
   "file": "requirements-encoder.txt",

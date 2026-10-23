@@ -14,8 +14,8 @@
     },
     {
       "file": "CITATION.cff",
-      "bytes": 779,
-      "sha256": "7539213eb468e7f72bb851486cbb1b97e6c91f3277ee3264978b096e101ab167"
+      "bytes": 968,
+      "sha256": "25468a885e5a55de79352a49131066376cb56d9c3c20e983309ccde129fb0a17"
     },
     {
       "file": "FIELD_DICTIONARY.md",
@@ -29,18 +29,18 @@
     },
     {
       "file": "README.md",
-      "bytes": 5997,
-      "sha256": "ed8e8e57bd2cf96fc9d43e0ac41eeeb01402fb55efb115c8d0f1d6b05e39a08b"
+      "bytes": 6253,
+      "sha256": "8ace4c97599a7a41d2185d6906e26385d8ed9f8d379e5e66e28631bc4622c7b4"
     },
     {
       "file": "RELEASE_STATUS.json",
-      "bytes": 2012,
-      "sha256": "55a3d8876823e3773a343f98a00021a59272a1f4775b8afcd43896cf11f4b175"
+      "bytes": 2273,
+      "sha256": "0e14492d23b4b41c5d3c3f0f595ead7965fc6a3bdca27c07d54fbeff46758982"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2935,
-      "sha256": "1a1a771e605798a9ae8d4d14f681192f41cb0759f18e47470abb2c534f64a120"
+      "bytes": 3025,
+      "sha256": "72acd6ce5380a10d5b5b5d97232842589f6429e175382e460bfe98d3e91e700b"
     },
     {
       "file": "code/encoder.py",
@@ -304,8 +304,8 @@
     },
     {
       "file": "records/completion_audit.json",
-      "bytes": 4693,
-      "sha256": "f7ed94251aec29aa4a29d91b6b8f76cd51c169c45d5f300b69485c0e1f6ccfdd"
+      "bytes": 4786,
+      "sha256": "ba64670049921b58e1d0c93a25da54caf3a3eb6eb4cae8430f9745b490af3c96"
     },
     {
       "file": "records/corpus_fetch_summary.json",
@@ -339,8 +339,8 @@
     },
     {
       "file": "records/output_summary.json",
-      "bytes": 305,
-      "sha256": "479e2a7ea63c491fd3d2159b110bcc52e5e74735e8cd7659c70c2f6ebeaf83f6"
+      "bytes": 398,
+      "sha256": "e4dcb8f2dee50bedfa0535a0a95e7abb61b589db672b0ba79c5d6a706d636a1f"
     },
     {
       "file": "records/portable_adaptations.json",
@@ -369,8 +369,8 @@
     },
     {
       "file": "records/source_package_manifest_2026-10-19.json",
-      "bytes": 11635,
-      "sha256": "1fbaf164c591d35ec2db82050e668c3e30b1399f7881be71fd1872de88c65197"
+      "bytes": 11633,
+      "sha256": "4b2d3a5e576ef1c2954993e763cc4b21e7949bc23d37b503ebdb045fb9ce11dd"
     },
     {
       "file": "requirements-encoder.txt",

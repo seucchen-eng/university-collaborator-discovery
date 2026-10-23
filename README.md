@@ -61,12 +61,12 @@ The implementations for a new run are included, but their execution is separate 
 
 ## Ethics, consent and licenses
 
-The Science and Technology Ethics Committee of Southeast University approved subsequent analysis and publication of existing materials under the submitted protocol (SEU-EC-2026-0059; reviewed 12 October 2026, issued 19 October 2026). The evaluations preceded the decision. The author subsequently confirmed reconfirmation of the materials and original opinions with responsible contributors, without changing the data, and authorization for analysis and open public release of study data, including item-level records.
+The Science and Technology Ethics Committee of Southeast University approved the study protocol, including the human evaluation and the analysis and publication of its materials (SEU-EC-2026-0059; reviewed 12 October 2026, issued 19 October 2026). The domain review and requester evaluation reported in the associated manuscript were conducted on 20–23 October 2026, after the approval date. All contributors gave written informed consent, participated without remuneration, and authorized analysis and open public release of the study data, including item-level records.
 
 MIT applies to author-controlled code, documentation and study data as described in `LICENSE`. Third-party publication text, OpenAlex metadata and model assets retain their source terms; see `THIRD_PARTY_NOTICES.md`. Public bibliography and source links can identify candidate authors. Private participant crosswalks, signed forms, approval scans, personal contact records and raw feedback prose are excluded from this repository.
 
 ## Citation and contact
 
-Use the repository version or commit you actually used; `CITATION.cff` supplies software citation metadata. The associated manuscript is in preparation for submission and has no publication DOI recorded here. This GitHub repository has no archival DOI yet.
+Use the repository version or commit you actually used; `CITATION.cff` supplies software citation metadata. The associated manuscript is in preparation for submission and has no publication DOI recorded here. This repository is archived on Zenodo: version DOI 10.5281/zenodo.23529615; concept DOI 10.5281/zenodo.23529614 resolves to all versions.
 
 Correspondence: Chao Chen, cchen@seu.edu.cn.

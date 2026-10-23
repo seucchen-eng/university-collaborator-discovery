@@ -271,13 +271,13 @@
   },
   {
     "file": "README.md",
-    "bytes": 9688,
-    "sha256": "0167aee16bc6999b98978da62ea78fc4dfddf25b3072c1ff9fcd08c7051262c8"
+    "bytes": 6253,
+    "sha256": "8ace4c97599a7a41d2185d6906e26385d8ed9f8d379e5e66e28631bc4622c7b4"
   },
   {
     "file": "records/completion_audit.json",
-    "bytes": 4693,
-    "sha256": "f7ed94251aec29aa4a29d91b6b8f76cd51c169c45d5f300b69485c0e1f6ccfdd"
+    "bytes": 4786,
+    "sha256": "ba64670049921b58e1d0c93a25da54caf3a3eb6eb4cae8430f9745b490af3c96"
   },
   {
     "file": "records/corpus_fetch_summary.json",
@@ -311,8 +311,8 @@
   },
   {
     "file": "records/output_summary.json",
-    "bytes": 305,
-    "sha256": "479e2a7ea63c491fd3d2159b110bcc52e5e74735e8cd7659c70c2f6ebeaf83f6"
+    "bytes": 398,
+    "sha256": "e4dcb8f2dee50bedfa0535a0a95e7abb61b589db672b0ba79c5d6a706d636a1f"
   },
   {
     "file": "records/portable_adaptations.json",
@@ -341,8 +341,8 @@
   },
   {
     "file": "RELEASE_STATUS.json",
-    "bytes": 1790,
-    "sha256": "94c0b26cafc85bfe214907a1317b89c16594dd84e3edb1a2eb5373388037cb05"
+    "bytes": 2273,
+    "sha256": "0e14492d23b4b41c5d3c3f0f595ead7965fc6a3bdca27c07d54fbeff46758982"
   },
   {
     "file": "requirements-encoder.txt",
@@ -356,12 +356,12 @@
   },
   {
     "file": "THIRD_PARTY_NOTICES.md",
-    "bytes": 2935,
-    "sha256": "1a1a771e605798a9ae8d4d14f681192f41cb0759f18e47470abb2c534f64a120"
+    "bytes": 3025,
+    "sha256": "72acd6ce5380a10d5b5b5d97232842589f6429e175382e460bfe98d3e91e700b"
   },
   {
     "file": "verification/offline_replay.json",
     "bytes": 3508,
-    "sha256": "f6dd1269657f1026fcfd20074e8d1ac11ac2ec44ec7c9b838541bbafd9b4a4ee"
+    "sha256": "85f005c31b2afdcdd1bbb9dbd35ade57eaa34c8693128c5e5f31d086872bd528"
   }
 ]

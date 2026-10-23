@@ -1,9 +1,9 @@
 {
-  "verification_date_utc": "2026-10-19T07:14:00Z",
+  "verification_date_utc": "2026-10-23T07:38:41Z",
   "scope": "Offline frozen-input replay; no new model outputs or human judgments",
   "runtime": {
     "python": "3.12.14",
-    "numpy": "2.3.5"
+    "numpy": "2.4.4"
   },
   "checks": {
     "byte_exact_corpus": {
@@ -139,5 +139,5 @@
     }
   },
   "all_passed": true,
-  "seconds": 83.26670300000114
+  "seconds": 83.655875400058
 }

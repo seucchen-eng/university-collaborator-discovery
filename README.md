@@ -1,6 +1,6 @@
 # University collaborator discovery
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23585660.svg)](https://doi.org/10.5281/zenodo.23585660)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23589385.svg)](https://doi.org/10.5281/zenodo.23589385)
 
 Code and frozen study inputs for **University collaborator discovery using language models and source-linked publication evidence**, by Chao Chen, Chao Li, Youdong Wang and Haijian Zhu, Network and Information Center, Southeast University.
 
@@ -67,6 +67,6 @@ MIT applies to author-controlled code, documentation and study data as described
 
 ## Citation and contact
 
-Use the repository version or commit you actually used; `CITATION.cff` supplies software citation metadata. The associated manuscript is in preparation for submission and has no publication DOI recorded here. This repository is archived on Zenodo: DOI 10.5281/zenodo.23585660.
+Use the repository version or commit you actually used; `CITATION.cff` supplies software citation metadata. The associated manuscript is in preparation for submission and has no publication DOI recorded here. This repository is archived on Zenodo: DOI 10.5281/zenodo.23589385.
 
 Correspondence: Chao Chen, cchen@seu.edu.cn.

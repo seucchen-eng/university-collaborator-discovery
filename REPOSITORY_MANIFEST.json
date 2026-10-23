@@ -15,7 +15,7 @@
   {
    "file": "CITATION.cff",
    "bytes": 811,
-   "sha256": "a97403a414f9899fb2073f0706191d3305b668a21643ca6b028d246f9b5c9720"
+   "sha256": "4ad0d1cd56b990624bcb10253080c1598e1ff01edb10ec3d1d279c73198b8651"
   },
   {
    "file": "FIELD_DICTIONARY.md",
@@ -30,17 +30,17 @@
   {
    "file": "README.md",
    "bytes": 6183,
-   "sha256": "dfdcecc3eb5284c19aba19b4de7acaa225777a6ee4b34889a0718ed9009a6acf"
+   "sha256": "e4026d89a0f3afd8df689f73e6077d49ccd1cf7945fec96fa8976d3272ac1ff3"
   },
   {
    "file": "RELEASE_STATUS.json",
    "bytes": 2145,
-   "sha256": "f4b93e8bd6df772eae24e675a89448257b8a877ba86e32d27b9c836204b5860a"
+   "sha256": "99273674b82164345f8c448e926e5b739f5f077dd546a9114fdddf3d43919236"
   },
   {
    "file": "THIRD_PARTY_NOTICES.md",
    "bytes": 3025,
-   "sha256": "bc062991c03816a1eda995bc547e6fa1bc8c9c182ba22970dc2b9fb8c106126f"
+   "sha256": "42778cfd654f51ade04cd3acd4a881accde9e602bf37ccdb69d7135ed041a86e"
   },
   {
    "file": "code/encoder.py",
@@ -370,7 +370,7 @@
   {
    "file": "records/source_package_manifest_2026-10-19.json",
    "bytes": 11051,
-   "sha256": "d4c7f39deb0753cfe4574efebaeea97c0276e6dce3fbcf5899993aed8827bd5c"
+   "sha256": "02efe65097707fda4367566d6eefd7371d20057a0ddce7b5c294542c3a88f6e7"
   },
   {
    "file": "requirements-encoder.txt",
@@ -384,8 +384,8 @@
   },
   {
    "file": "verification/offline_replay.json",
-   "bytes": 3508,
-   "sha256": "85f005c31b2afdcdd1bbb9dbd35ade57eaa34c8693128c5e5f31d086872bd528"
+   "bytes": 3506,
+   "sha256": "99a5fa911e18851927764ba4bc2e73944f74dc6ef47f9192ee37b75f783f6da5"
   }
  ]
 }

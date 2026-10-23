@@ -12,7 +12,7 @@ authors:
   - family-names: Zhu
     given-names: Haijian
 version: 1.0.0
-doi: "10.5281/zenodo.23585660"
+doi: "10.5281/zenodo.23589385"
 repository-code: "https://github.com/seucchen-eng/university-collaborator-discovery"
 url: "https://github.com/seucchen-eng/university-collaborator-discovery"
 license: MIT

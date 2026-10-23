@@ -2,7 +2,7 @@
  "status": "GITHUB_RELEASE_CONTENTS",
  "date": "2026-09-30",
  "public_repository": "https://github.com/seucchen-eng/university-collaborator-discovery",
- "persistent_identifier": "10.5281/zenodo.23585660",
+ "persistent_identifier": "10.5281/zenodo.23589385",
  "ethics": "Approval SEU-EC-2026-0059 issued 19 October 2026 following review on 12 October; the protocol covers the human evaluation and the analysis and publication of study materials. The reported domain review and requester evaluation were conducted on 20-23 October 2026, after approval",
  "author_code_license": "MIT",
  "participant_publication_scope": "All contributors gave written informed consent, participated without remuneration, and authorized analysis and open public release of all study data, including item-level records",
@@ -25,6 +25,6 @@
  "study_data_license": "MIT for author-controlled study data and records, to the extent the authors are entitled to license them",
  "authorization_source": "Written informed consent and release authorization collected from every contributor during the formal evaluation round, 20-23 October 2026",
  "data_and_judgments_changed": false,
- "publication_note": "Repository contents for v1.0.0; public availability is verified by the remote repository. Archived on Zenodo on 23 October 2026: DOI 10.5281/zenodo.23585660.",
+ "publication_note": "Repository contents for v1.0.0; public availability is verified by the remote repository. Archived on Zenodo on 23 October 2026: DOI 10.5281/zenodo.23589385.",
  "release_version": "v1.0.0"
 }

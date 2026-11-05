@@ -64,7 +64,7 @@ The workflow selects candidate researchers from an institutional OpenAlex corpus
 
 Manuscript: *University collaborator discovery using language models and source-linked publication evidence*, Chao Chen, Chao Li, Youdong Wang and Haijian Zhu. Correspondence: cchen@seu.edu.cn.
 
-Archive DOI: https://doi.org/10.5281/zenodo.23589385
+Archive DOI: https://doi.org/10.5281/zenodo.23972385
 Source repository: https://github.com/seucchen-eng/university-collaborator-discovery
 
 ## License & Contribution Guidelines

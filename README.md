@@ -1,72 +1,74 @@
-# University collaborator discovery
+# University collaborator discovery using language models and source-linked publication evidence — code and data package
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23589385.svg)](https://doi.org/10.5281/zenodo.23589385)
+## Title
 
-Code and frozen study inputs for **University collaborator discovery using language models and source-linked publication evidence**, by Chao Chen, Chao Li, Youdong Wang and Haijian Zhu, Network and Information Center, Southeast University.
+Open institutional collaborator-discovery experiment: portable code, frozen study records and normalized OpenAlex corpus for the two reported cases.
 
-The workflow turns a faculty research need into candidate collaboration cards with publication evidence and conditional rationales. The study covers two institutional needs and compares BM25, semantic retrieval, and association-based evidence selection. The results are descriptive; they do not establish ranking superiority or subsequent collaboration.
+## Description
 
-## Quick start: offline reproduction
+This package accompanies the manuscript *University collaborator discovery using language models and source-linked publication evidence* (Chao Chen, Chao Li, Youdong Wang, Haijian Zhu). It provides the exact inputs and outputs of the reported run: a normalized institutional OpenAlex corpus (87,101 records, 2010–2025), frozen lexical and semantic scores, six complete rankings, operational identity decisions, selected source evidence, exact generated suggestion cards, and coded human evaluation labels. The package reproduces the archived outputs from frozen inputs; it does not create new recommendations or new participant data.
 
-Python 3.12 is recommended. Clone the repository with its six compressed corpus parts, then run:
+Institutional approval: SEU-EC-2026-0059 (reviewed 12 October 2026, issued 19 October 2026). The reported human evaluation was conducted on 20–23 October 2026 with written informed consent. Named participant forms and identity crosswalks are excluded.
 
-```bash
-git clone https://github.com/seucchen-eng/university-collaborator-discovery.git
-cd university-collaborator-discovery
-python -m venv .venv
-```
+## Dataset Information
 
-Activate the environment (`.venv\Scripts\activate` on Windows, or `source .venv/bin/activate` on macOS/Linux), then:
+- `PREPARATION/corpus/part_01.jsonl.gz` … `part_06.jsonl.gz` (external, in the Zenodo deposit and GitHub repository): six ordered, byte-preserving partitions of the normalized corpus. Concatenate decompressed parts in manifest order to restore `corpus.jsonl` (SHA-256: `a4fe2ecb27529d548026ae7465075ebbe68fd60183705de03a4c7aee8894b781`).
+- `PREPARATION/corpus_manifest.json`: partition hashes, record counts and original corpus SHA-256.
+- `PREPARATION/frozen/`: queries, retrieval settings, BM25 and dense scores, full rankings, exclusion set, identity decisions, generation inputs, prompts, HTTP request/response bodies and evidence graph.
+- `PREPARATION/evaluation/`: coded fact/rationale/requester labels, frozen Chinese card content, selected source texts and summary script.
+- `PREPARATION/records/`: freeze manifests, accounting records, runtime and hardware records, encoder receipts and adaptation log.
+- `PREPARATION/model/`: pinned third-party model manifest and model card (weights are not bundled).
 
-```bash
-python -m pip install -r requirements-replay.txt
-python code/replay.py
-```
+**Language note:** the evaluated suggestion cards, prompts and source passages contain Chinese text because the instruments were administered in Chinese. English reading translations of the cards, instructions and scoring rules are provided in `Supplemental_Methods_S1.zip` (`card_reading_companion_en.md`, `EN_operations_and_scoring.md`, and the `en/` instrument translations). These translations are reading aids, not new evaluations.
 
-The replay reads the compressed corpus directly. It makes no network requests, model-inference calls, or paid API calls. It writes `verification/offline_replay.json` and `evaluation/recomputed_results.json`. These files are tracked study reports, so a new execution can change the recorded runtime and timestamp. For the smaller human-result calculation alone, run:
+## Code Information
 
-```bash
-python evaluation/summarize_open_results.py
-```
+- `PREPARATION/code/replay.py`: offline verification of corpus bytes, source hashes, BM25 values, rankings, identity gate, generation packets and human-result tables. No network or paid API calls.
+- `PREPARATION/code/ranking.py`: frozen ranking arithmetic.
+- `PREPARATION/code/retrieval_rules.py`: retrieval and selection rules.
+- `PREPARATION/code/normalize_corpus.py`: corpus normalization (deduplication, abstract reconstruction, institutional-author mapping, 254-WordPiece retrieval span and BM25).
+- `PREPARATION/code/encoder.py`: parallel embedding encoder (requires separately downloaded model weights).
+- `PREPARATION/code/fetch_public_data.py`: gated OpenAlex acquisition for a fresh snapshot.
+- `PREPARATION/code/generate.py`: gated paid regeneration; not invoked by replay.
+- `PREPARATION/evaluation/summarize_open_results.py`: recalculation of evaluation summaries.
 
-The repository includes about 82 MB of compressed corpus inputs plus code and study records. No Git LFS or model weights are required for the default replay.
+All code comments and documentation are in English. Chinese strings that remain inside code or data are evaluated source content, not comments.
 
-## What is included
+## Usage Instructions
 
-| Directory/file | Contents |
-| --- | --- |
-| `code/` | Acquisition, normalization, parallel encoding, retrieval rules, ranking, generation and offline replay |
-| `corpus/` | Six compressed parts of the exact 87,101-record retained OpenAlex corpus |
-| `corpus_manifest.json` | Partition order, hashes and the original concatenated corpus hash |
-| `frozen/` | Queries, retrieval configuration, complete scores and rankings, evidence graph, screening decisions and saved generation inputs/outputs |
-| `evaluation/` | Coded labels, evaluated cards, selected source passages and result aggregation |
-| `records/` | Historical acquisition/runtime records and portability notes |
-| `model/` | Encoder revision, artifact hashes and upstream model card; no weights |
-| `verification/` | Archived and repository replay results |
-| `FIELD_DICTIONARY.md` | Field definitions, denominators and interpretation |
+1. Extract `Supplemental_Code_S1.zip` to obtain `PREPARATION/`.
+2. Download the six corpus partitions from Zenodo (DOI below) or GitHub and copy them into `PREPARATION/corpus/`.
+3. Verify files against `PREPARATION/FILE_MANIFEST.json` (byte sizes and SHA-256).
+4. Run the offline replay:
 
-All evaluated records were copied from the frozen release package. No new human evaluations or model outputs were generated for publication. Expected core checks include 87,101 corpus records, 174,202 BM25 values, 1,553 ranked author objects, six generation packets, 17 cards and 32 factual statements. Identity review leaves 16 eligible cards representing 14 people; nine card instances representing seven people received definite interest.
+   ```text
+   python PREPARATION/code/replay.py
+   ```
 
-## Reproduction boundaries
+   Results are written to `PREPARATION/verification/offline_replay.json` and `PREPARATION/evaluation/recomputed_results.json`.
 
-The offline replay recalculates corpus accounting, lexical scores, rankings and human-result summaries from the archived inputs. Semantic scores and hosted-model responses are frozen inputs; the default command does not regenerate them. Public-source updates and hosted-model changes can make a fresh run differ from the historical study. Candidate identity screening is replayed as a recorded decision, not independently re-established.
+Do not overwrite the original labels after reading the summary.
 
-The hosted service returned the `deepseek-flash` alias on 26 September 2026 UTC with fingerprint `aeb56401ca74e127821c4f9126dcb669`; an immutable API model version was not returned. The encoder revision is recorded in `model/manifest.json`. Original and replay runtime versions are kept separately.
+## Requirements
 
-## Optional new acquisition or model execution
+- Python 3.12 (the saved replay used Python 3.12.14).
+- NumPy 2.4.4 for replay (`PREPARATION/requirements-replay.txt`).
+- Original encoder dependencies are preserved in `PREPARATION/requirements-encoder.txt` (NumPy 2.5.3, onnxruntime 1.30.0, tokenizers 0.23.2).
+- No packages are installed automatically by the scripts.
 
-The implementations for a new run are included, but their execution is separate from the frozen replay. `fetch_public_data.py` uses `OPENALEX_API_KEY` and a new `STUDY_WORK_DIR`; its network acquisition is disabled by default. `normalize_corpus.py` prepares a new snapshot. `encoder.py` needs the model files listed in `model/manifest.json`, a separate work directory and `requirements-encoder.txt`.
+## Methodology
 
-`generate.py` additionally requires `ALLOW_PAID_REGENERATION=YES` and `DEEPSEEK_API_KEY`. New generation can incur charges and is not run by the reproduction command. Keep credentials in environment variables, never in this repository. Detailed original implementation notes are retained in `records/portable_adaptations.json`.
+The workflow selects candidate researchers from an institutional OpenAlex corpus under a fixed evidence budget, then generates suggestion cards whose factual statements carry exact bounded quotations. Candidate identities and order are frozen before card generation. Human evaluation separates identity eligibility, factual support, rationale quality and requester interest with explicit denominators. The offline replay verifies the saved outputs without repeating human judgments or calling the hosted generator.
 
-## Ethics, consent and licenses
+## Citations
 
-The Science and Technology Ethics Committee of Southeast University approved the study protocol, including the human evaluation and the analysis and publication of its materials (SEU-EC-2026-0059; reviewed 12 October 2026, issued 19 October 2026). The domain review and requester evaluation reported in the associated manuscript were conducted on 20–23 October 2026, after the approval date. All contributors gave written informed consent, participated without remuneration, and authorized analysis and open public release of the study data, including item-level records.
+Manuscript: *University collaborator discovery using language models and source-linked publication evidence*, Chao Chen, Chao Li, Youdong Wang and Haijian Zhu. Correspondence: cchen@seu.edu.cn.
 
-MIT applies to author-controlled code, documentation and study data as described in `LICENSE`. Third-party publication text, OpenAlex metadata and model assets retain their source terms; see `THIRD_PARTY_NOTICES.md`. Public bibliography and source links can identify candidate authors. Private participant crosswalks, signed forms, approval scans, personal contact records and raw feedback prose are excluded from this repository.
+Archive DOI: https://doi.org/10.5281/zenodo.23589385
+Source repository: https://github.com/seucchen-eng/university-collaborator-discovery
 
-## Citation and contact
+## License & Contribution Guidelines
 
-Use the repository version or commit you actually used; `CITATION.cff` supplies software citation metadata. The associated manuscript is in preparation for submission and has no publication DOI recorded here. This repository is archived on Zenodo: DOI 10.5281/zenodo.23589385.
+Author-controlled code, documentation and study data are released under the MIT License (see `PREPARATION/LICENSE` and `PREPARATION/THIRD_PARTY_NOTICES.md`). OpenAlex describes its released dataset as CC0; third-party publication text and model assets retain their original terms. No publisher full-text PDF is included.
 
-Correspondence: Chao Chen, cchen@seu.edu.cn.
+If you use this package, please cite the manuscript and the archive DOI. Issues and pull requests may be opened on GitHub; changes that would alter frozen cards, original ratings or labels should be proposed as new analysis branches, not as edits to the frozen records.

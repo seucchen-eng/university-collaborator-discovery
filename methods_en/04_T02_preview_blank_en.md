@@ -1,0 +1,445 @@
+> Editorial note (prepared 2026-09-30; ethics status updated 2026-10-23): this is a submission-preparation copy of the original blank instrument, not a new administration. Items, decision criteria, material order and blank response fields are preserved. Candidate display names have been replaced with P codes as in the manuscript; public papers and identity clues may still identify individuals. Browser buttons mentioned in the original text described the HTML working page; this Markdown copy contains no buttons. Ethics approval SEU-EC-2026-0059 was issued on 2026-10-19, covering the human evaluation and the analysis and publication of study materials. The formal evaluation reported here was completed on 2026-10-20 to 2026-10-23 (after approval); all participants gave written informed consent and authorized publication.
+
+# T02 requester utility evaluation
+
+Recipient: the faculty requester for T02. This packet contains 8 suggestion cards. Please judge only whether each card is worth further investigation and whether it offers a concrete collaboration entry point; do not assign factual-support labels.
+
+Packet T02-USER-PREVIEW | Materials version open-v1-human-20260928
+
+Preview to be sent by the organizer: the actual cards to be distributed will be determined after identity verification. This page does not record human identity confirmation.
+
+Open the local file in a browser to fill it in. To pause, click “Export draft”; next time use “Load draft” to resume. When finished, click “Check and export results” and return only the exported JSON file to the organizer. The page does not upload answers to any server.
+
+## Respondent registration
+
+- meta.participant_name ｜ Respondent name (for organizer registration only)：________
+
+- meta.completed_date ｜ Actual completion date：________
+
+- meta.prior_exposure ｜ Prior exposure to this packet (none not seen; materials seen materials but not configurations or others' conclusions; results seen configurations or others' conclusions; unknown uncertain)：________
+
+- meta.ai_use ｜ AI use for this task (none not used; format only formatting or grammar checking; other other, please specify in the process note)：________
+
+- meta.process_note ｜ Process note (any other AI use or workflow requiring explanation)：________
+
+## Instructions
+
+Evaluate against your own research need; you do not need to guess which system configuration produced a card.
+
+The same candidate may appear with different evidence and rationales; evaluate each card separately. Identifiers and display order do not indicate ranking.
+
+A suggestion does not confirm a candidate's resources, individual role or willingness to collaborate; choose the corresponding option when more information is needed.
+
+Before completion, do not consult external verification results or discuss specific answers with other evaluators. If you have previously seen relevant materials, declare this in the registration fields.
+
+## Your research need and the cards to evaluate
+
+Find complementary electronic design automation expertise for applying domain language models to chip design. Seek design task knowledge, real design data usable for research, and executable design-flow validation. Relevant tasks include timing, physical design and layout. Generated layouts and a paper's past access to a process library do not establish available, licensed real design data.
+
+Find complementary electronic design automation expertise for applying domain language models to chip design. Seek design task knowledge, real design data usable for research, and executable design-flow validation. Relevant tasks include timing, physical design and layout. Generated layouts and a paper's past access to a process library do not establish available, licensed real design data.
+
+### K007 Candidate P013
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/yanhao/main.htm)
+
+#### Research fact 1
+
+The study proposed a learning-driven, physically aware gate-sizing framework for efficient timing optimization of large-scale circuits.
+
+> In this work, we propose a learning-driven physically aware gate sizing framework to optimize timing performance on large-scale circuits efficiently.
+
+[Paper Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing](https://doi.org/10.1109/tcad.2024.3488577)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing
+Gate sizing plays an important role in timing optimization after physical design. Existing machine learning-based gate sizing works cannot optimize timing on multiple timing paths simultaneously and neglect the physical constraint on layouts. They cause suboptimal sizing solutions and low-efficiency issues when compared with commercial gate sizing tools. In this work, we propose a learning-driven physically aware gate sizing framework to optimize timing performance on large-scale circuits efficiently. In our gradient descent optimization-based work, for obtaining accurate gradients, a multimodal gate sizing-aware timing model is achieved via learning timing information on multiple timing paths and physical information on multiple-scaled layouts jointly. Then, gradient generation based on the sizing-oriented estimator and adaptive back-propagation are developed to update gate sizes. Our results demonstrate that our work achieves higher-timing performance improvements in a faster way compared with the commercial gate sizing tool.
+```
+
+#### Research fact 2
+
+In offline mode, the work transformed the original discrete design space into a continuous space, built predictive models, performed parallel gradient optimization, and mapped results back to the discrete domain.
+
+> In offline mode, it transforms the original discrete design space into a continuous space, builds predictive models, performs parallel gradient-based optimization, and maps the results back to the discrete domain.
+
+[Paper DCTDSE: A Bimodal Design Space Exploration Flow via Discrete–Continuous Transformation](https://doi.org/10.1109/tcad.2025.3596538)
+
+**Title and abstract passage supplied on that run**
+
+```text
+DCTDSE: A Bimodal Design Space Exploration Flow via Discrete–Continuous Transformation
+The conservation core accelerator presents a promising avenue for improving the computational efficiency of specific applications. However, its design space is ultra-high-dimensional, significantly increasing the exploratory effort required to identify the optimal design across performance, power, and area metrics. Furthermore, the discrete nature of the microarchitecture space renders conventional search methods ineffective. To tackle these challenges, we propose the Discrete Continuous Transformation to speedup Design Space Exploration, namely DCTDSE. It can operate in either offline or online mode. In offline mode, it transforms the original discrete design space into a continuous space, builds predictive models, performs parallel gradient-based optimization, and maps the results back to the discrete domain. In the online mode, DCTDSE refines the models by iteratively resampling previously found solutions, thereby enhancing exploration quality while maintaining moderate runtime overhead. Experimental results indicate that DCTDSE achieves a 3.9× to 40× speedup over benchmark methods in offline mode. In online mode, it provides a 2.5× speedup, with a 21% reduction in exploration quality relative to the most accurate comparison method.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be connected to physical-design and timing-optimization tasks, this candidate's experience in physically aware gate sizing and design-space exploration could be complementary. However, the methods target specific optimization objectives; compatibility with a language model and real flows needs confirmation.
+
+#### Items requiring confirmation
+
+Establish whether the candidate can provide real design data and executable design flows, the current licensing status of toolchains and technology libraries, and willingness to collaborate.
+
+- K007.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K007.note ｜ Basis for judgment or information needed：________
+
+- K007.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K017 Candidate P003
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/shilongxing/main.htm)
+
+#### Research fact 1
+
+The paper proposed a multimodal model combining power-delivery-network, layout and netlist data, incorporating auxiliary and contrastive learning to capture differences among power-delivery networks, and experimented on open-source designs.
+
+> To address this challenge, we propose a multimodal model that integrates PDN, layout, and netlist data. Additionally, we incorporate auxiliary and contrastive learning techniques to capture the differences across various PDNs. Extensive experiments on open-source designs demonstrate the superior performance of our model.
+
+[Paper Pre-Routing Timing Estimation Considering Power Delivery Network](https://doi.org/10.1109/iseda65950.2025.11100758)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Pre-Routing Timing Estimation Considering Power Delivery Network
+In recent years, the demand for fast and accurate pre-routing timing prediction is increasing. However, existing machine learning (ML)-based methods for predicting pre-routing timing often overlook the impact of power delivery networks (PDNs), which are critical to IR drop and routing congestion, limiting the effectiveness of these approaches in real-world circuit designs. To address this challenge, we propose a multimodal model that integrates PDN, layout, and netlist data. Additionally, we incorporate auxiliary and contrastive learning techniques to capture the differences across various PDNs. Extensive experiments on open-source designs demonstrate the superior performance of our model.
+```
+
+#### Research fact 2
+
+The paper proposed a learning-driven, physically aware gate-sizing framework, constructing a multimodal gate-sizing-aware timing model by jointly learning timing information from multiple timing paths and physical information from multiscale layouts.
+
+> In this work, we propose a learning-driven physically aware gate sizing framework to optimize timing performance on large-scale circuits efficiently. In our gradient descent optimization-based work, for obtaining accurate gradients, a multimodal gate sizing-aware timing model is achieved via learning timing information on multiple timing paths and physical information on multiple-scaled layouts jointly.
+
+[Paper Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing](https://doi.org/10.1109/tcad.2024.3488577)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Learning-Driven Physically Aware Large-Scale Circuit Gate Sizing
+Gate sizing plays an important role in timing optimization after physical design. Existing machine learning-based gate sizing works cannot optimize timing on multiple timing paths simultaneously and neglect the physical constraint on layouts. They cause suboptimal sizing solutions and low-efficiency issues when compared with commercial gate sizing tools. In this work, we propose a learning-driven physically aware gate sizing framework to optimize timing performance on large-scale circuits efficiently. In our gradient descent optimization-based work, for obtaining accurate gradients, a multimodal gate sizing-aware timing model is achieved via learning timing information on multiple timing paths and physical information on multiple-scaled layouts jointly. Then, gradient generation based on the sizing-oriented estimator and adaptive back-propagation are developed to update gate sizes. Our results demonstrate that our work achieves higher-timing performance improvements in a faster way compared with the commercial gate sizing tool.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to timing and physical-design tasks, this candidate's experience in multimodal modeling and physically aware optimization could be complementary. However, the data are open-source designs and the tasks are prediction and optimization; compatibility with real design flows needs validation.
+
+#### Items requiring confirmation
+
+Confirm whether the candidate has usable real design data, technology-library licenses, conditions for validating executable design flows, and current willingness to collaborate.
+
+- K017.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K017.note ｜ Basis for judgment or information needed：________
+
+- K017.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K012 Candidate P012
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/yangjun/main.htm)
+
+#### Research fact 1
+
+The paper advocates developing multimodal circuit-representation learning to provide comprehensive understanding by harmonizing and extracting insights from data sources including functional specifications, RTL designs, circuit netlists and physical layouts.
+
+> Pivotal to this vision is the development of a multimodal circuit representation learning technique, poised to provide a comprehensive understanding by harmonizing and extracting insights from varied data sources, such as functional specifications, register-transfer level (RTL) designs, circuit netlists, and physical layouts.
+
+[Paper Large circuit models: opportunities and challenges](https://doi.org/10.1007/s11432-024-4155-7)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Large circuit models: opportunities and challenges
+Abstract Within the electronic design automation (EDA) domain, artificial intelligence (AI)-driven solutions have emerged as formidable tools, yet they typically augment rather than redefine existing methodologies. These solutions often repurpose deep learning models from other domains, such as vision, text, and graph analytics, applying them to circuit design without tailoring to the unique complexities of electronic circuits. Such an “AI4EDA” approach falls short of achieving a holistic design synthesis and understanding, overlooking the intricate interplay of electrical, logical, and physical facets of circuit data. This study argues for a paradigm shift from AI4EDA towards AI-rooted EDA from the ground up, integrating AI at the core of the design process. Pivotal to this vision is the development of a multimodal circuit representation learning technique, poised to provide a comprehensive understanding by harmonizing and extracting insights from varied data sources, such as functional specifications, register-transfer level (RTL) designs, circuit netlists, and physical layouts. We champion the creation of large circuit models (LCMs) that are inherently multimodal, crafted to decode and express the rich semantics and structures of circuit data, thus fostering more resilient, efficient, and inventive design methodologies. Embracing this AI-rooted philosophy, we foresee a trajectory that transcends the current innovation plateau in EDA, igniting a profound “shift-left” in electronic design methodology. The envisioned advancements herald not just an evolution of existing EDA tools but a revolution, giving rise to novel instruments of design-tools that promise to radically enhance design productivity and inaugurate a new epoch where the optimization of circuit performance, power, and area (PPA) is achieved not incrementally, but through leaps that redefine the benchmarks of electronic systems’ capabilities.
+```
+
+#### Research fact 2
+
+The paper's ForgeEDA dataset includes multiple circuit representations: RTL code, post-mapping netlists, and-inverter graphs and placed netlists.
+
+> ForgeEDA includes diverse circuit representations such as Register Transfer Level (RTL) code, Post-mapping (PM) netlists, And-Inverter Graphs (AIGs), and placed netlists, enabling comprehensive analysis and development.
+
+[Paper ForgeEDA: A Comprehensive Multimodal Dataset for Advancing EDA](https://doi.org/10.1109/iseda65950.2025.11101194)
+
+**Title and abstract passage supplied on that run**
+
+```text
+ForgeEDA: A Comprehensive Multimodal Dataset for Advancing EDA
+We introduce ForgeEDA, an open-source comprehensive circuit dataset across various categories. ForgeEDA includes diverse circuit representations such as Register Transfer Level (RTL) code, Post-mapping (PM) netlists, And-Inverter Graphs (AIGs), and placed netlists, enabling comprehensive analysis and development. We demonstrate ForgeEDA’s utility by benchmarking state-of-the-art EDA algorithms on critical tasks such as Power, Performance, and Area (PPA) optimization, highlighting its ability to expose performance gaps and drive advancements. Additionally, ForgeEDA’s scale and diversity facilitate the training of AI models for EDA tasks, demonstrating its potential to improve model performance and generalization. By addressing limitations in existing datasets, ForgeEDA aims to catalyze breakthroughs in modern IC design and support the next generation of innovations in EDA.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to chip design, this candidate's advocacy of multimodal circuit-representation learning and an open dataset containing placed netlists could provide data-representation and layout-related task leads. However, the papers concern a review and dataset construction, and do not validate an executable design flow.
+
+#### Items requiring confirmation
+
+Establish whether the candidate has knowledge of timing/physical-design tasks, the dataset licensing conditions and availability of real design data, and the ability to participate in validating executable design flows.
+
+- K012.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K012.note ｜ Basis for judgment or information needed：________
+
+- K012.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K011 Candidate P004
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/caopeng/main.htm)
+
+#### Research fact 1
+
+The study validated the proposed preplacement timing-prediction and optimization framework using ISCAS'89, OpenCores and Gaisler benchmark circuits in TSMC 22 nm technology.
+
+> The proposed pre-placement timing prediction and optimization framework was validated under TSMC 22nm process with the ISCAS’89, OpenCores, and Gaisler benchmark circuits.
+
+[Paper Physical-Aware Multicorner Timing Prediction for Pre-Placement Optimization Using BiLSTM and GNN Networks](https://doi.org/10.1109/tcad.2025.3646591)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Physical-Aware Multicorner Timing Prediction for Pre-Placement Optimization Using BiLSTM and GNN Networks
+The timing inpredictability at early design stage poses significant challenge to design convergence of integrated circuits, especially under multiple PVT corners. Prior works have concentrated exclusively on research of timing correlation and the related impact to circuit design across multiple design stages or corners, without addressing the influence of both on the final prediction accurately and efficiently. In this work, a physical aware timing prediction framework for multiple corners is proposed for pre-placement prediction and optimization by employing the bidirectional LSTM network and MLP network to learn the correlation from the sequence features and global features at logic synthesis stage, in which a GNN-based model is utilized to estimate the HPWL as physical feature, addressing the timing prediction challenge suffering from physical information absence. Besides, a corner selection mechanism is introduced to reduce the post-synthesis feature extraction overhead from multiple corners. The proposed pre-placement timing prediction and optimization framework was validated under TSMC 22nm process with the ISCAS’89, OpenCores, and Gaisler benchmark circuits. Significant prediction accuracy improvement is achieved to estimate the post-placement path delay for 12 PVT corners by post-synthesis timing analysis results under 5 corners with an average rRMSE of 8.75% for unseen designs, demonstrating a 19×∼53× runtime speedup. Significant placement quality improvement is achieved in terms of 25.96% ADP reduction and 20.52% PDP reduction in average compared to traditional design flow.
+```
+
+#### Research fact 2
+
+The work experimented on ISCAS'89 benchmark circuits in TSMC 22 nm technology; the proposed framework achieved average critical-path prediction F1 scores of 95.0% and 93.6% on seen and unseen circuits, respectively.
+
+> Experimental results demonstrate that with the proposed framework, the average prediction accuracy of critical paths achieves 95.0% and 93.6% for seen and unseen circuits in terms of F1-score for ISCAS’89 benchmark circuits under TSMC 22nm process
+
+[Paper Critical Paths Prediction under Multiple Corners Based on BiLSTM Network](https://doi.org/10.1109/dac56929.2023.10247984)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Critical Paths Prediction under Multiple Corners Based on BiLSTM Network
+Critical path generation poses significant challenge to integrated circuit (IC) design flow in terms of huge computational complexity and crucial impact to circuit optimization, whose early prediction is of vital importance for accelerating the design closure, especially under multiple process-voltage-temperature (PVT) corners. In this work, a post-routing critical path prediction framework is proposed based on Bidirectional Long Short-Term Memory (BiLSTM) network and Multi-Layer Perceptron (MLP) network to learn from the sequential features and global features at logic synthesis stage, which are extracted from the timing and physical information of cell sequences and operation conditions for circuit respectively. Experimental results demonstrate that with the proposed framework, the average prediction accuracy of critical paths achieves 95.0% and 93.6% for seen and unseen circuits in terms of F1-score for ISCAS’89 benchmark circuits under TSMC 22nm process, demonstrating an increase of 10.8% and 13.9% compared with existing learning-based critical paths prediction method.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to timing and preplacement prediction, this candidate's experience in timing prediction and physically aware modeling could be complementary. However, validation used benchmark circuits and a specific technology; transfer to real design data and executable flows needs confirmation.
+
+#### Items requiring confirmation
+
+Establish whether the candidate can obtain and authorize use of real design data, what technology libraries and EDA flows are currently available, and whether they are willing to participate in joint validation.
+
+- K011.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K011.note ｜ Basis for judgment or information needed：________
+
+- K011.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K015 Candidate P009
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/wx/main.htm)
+
+#### Research fact 1
+
+The paper proposed ChatChisel, a language-based agile hardware-design workflow using four LLM-based modules for decomposing, generating, correcting and composing hardware designs.
+
+> We introduce ChatChisel, the first language-based agile hardware design workflow that generates Chisel from language specifications. ChatChisel utilizes four LLM-based modules for decomposing, generating, error-correcting, and composing hardware designs.
+
+[Paper ChatChisel: Enabling Agile Hardware Design with Large Language Models](https://doi.org/10.1109/iseda62518.2024.10618053)
+
+**Title and abstract passage supplied on that run**
+
+```text
+ChatChisel: Enabling Agile Hardware Design with Large Language Models
+With the increasing complexity of integrated circuits, agile hardware design methodologies are crucial. Modern HDLs like Chisel enhance design quality, but manual implementations remain error-prone and time-consuming. Large language models (LLMs) offer potential for design automation through natural language but face challenges in generating large circuits using Verilog. We evaluate LLM capabilities for Chisel and Verilog generation, demonstrating superior Chisel generation ability. We introduce ChatChisel, the first language-based agile hardware design workflow that generates Chisel from language specifications. ChatChisel utilizes four LLM-based modules for decomposing, generating, error-correcting, and composing hardware designs. Techniques like LLM collaboration and RAG enhance ChatChisel's performance. Using GPT-3.5-turbo, we implemented an RV32I RISC-V CPU with 5-stage pipeline and dynamic branch prediction. We also validate our approach with extensive evaluations. Our experimental results reveal that ChatChisel can outperform LLM-based hardware design with Verilog by an average of 31.86%, implying a significant design capability enhancement and design process acceleration with ChatChisel.
+```
+
+#### Research fact 2
+
+The paper's MMCircuitEval benchmark contains 3,614 question–answer pairs covering key EDA stages from front-end to back-end design for digital and analog circuits.
+
+> MMCircuitEval comprises 3614 meticulously curated question-answer (QA) pairs spanning digital and analog circuits across critical EDA stages—ranging from general knowledge and specifications to front-end and back-end design.
+
+[Paper MMCircuitEval: A Comprehensive Multimodal Circuit-Focused Benchmark for Evaluating LLMs](https://doi.org/10.1109/iccad66269.2025.11240653)
+
+**Title and abstract passage supplied on that run**
+
+```text
+MMCircuitEval: A Comprehensive Multimodal Circuit-Focused Benchmark for Evaluating LLMs
+The emergence of multimodal large language models (MLLMs) presents promising opportunities for automation and enhancement in Electronic Design Automation (EDA). However, comprehensively evaluating these models in circuit design remains challenging due to the narrow scope of existing benchmarks. To bridge this gap, we introduce MMCircuitEval, the first multimodal benchmark specifically designed to assess MLLM performance comprehensively across diverse EDA tasks. MMCircuitEval comprises 3614 meticulously curated question-answer (QA) pairs spanning digital and analog circuits across critical EDA stages—ranging from general knowledge and specifications to front-end and back-end design. Derived from textbooks, technical question banks, datasheets, and real-world documentation, each QA pair undergoes rigorous expert review for accuracy and relevance. Our benchmark uniquely categorizes questions by design stage, circuit type, tested abilities (knowledge, comprehension, reasoning, computation), and difficulty level, enabling detailed analysis of model capabilities and limitations. Extensive evaluations reveal significant performance gaps among existing LLMs, particularly in back-end design and complex computations, highlighting the critical need for targeted training datasets and modeling approaches. MMCircuitEval provides a foundational resource for advancing MLLMs in EDA, facilitating their integration into real-world circuit design workflows. Our benchmark is available at https://github.com/cure-lab/MMCircuitEval.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to chip design, this candidate's LLM hardware-generation workflow and benchmark covering front-end and back-end design could offer ideas for task decomposition and evaluation. However, neither involves timing, physical design or validation of executable design flows.
+
+#### Items requiring confirmation
+
+Establish whether the candidate has knowledge of timing/physical-design tasks, usable real design data and technology-library licenses, and can participate in validating executable design flows.
+
+- K015.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K015.note ｜ Basis for judgment or information needed：________
+
+- K015.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K006 Candidate P006
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/zbw/main.htm)
+
+#### Research fact 1
+
+The study validated the proposed framework through experimental evaluation, demonstrating successful transfer learning from 130 or 45 nm to 7 nm technology nodes.
+
+> We validate the efficacy of our proposed framework through comprehensive experimental evaluations, demonstrating successful transfer learning from 130 or 45 to 7-nm technology nodes.
+
+[Paper Prerouting Timing Prediction Across Different Technology Nodes](https://doi.org/10.1109/tcad.2024.3523426)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Prerouting Timing Prediction Across Different Technology Nodes
+In the domain of very-large-scale integration (VLSI) design, the accuracy of prerouting timing prediction is of paramount importance for ensuring the performance and reliability of integrated circuits. Traditional methods based on machine learning necessitate the availability of extensive and high-quality datasets. However, this requirement poses significant challenges for advanced technology nodes due to the laborious and time-intensive nature of data preparation. To address this critical issue, we introduce a novel transfer learning framework that leverages data from preceding technology nodes to facilitate learning and prediction on the target node. Our methodology commences with the disentanglement and alignment of timing path features across different nodes, ensuring the preservation and effective translation of intrinsic timing path properties. Subsequently, we employ a Bayesian-based model to predict the arrival times of individual timing paths. This model is particularly adept at managing the high-variability inherent in arrival times and exhibits strong generalization capabilities to novel design scenarios. Moreover, we propose a new algorithm to reweight the preceding node data during training by estimating their transferability through the cell type distribution. We validate the efficacy of our proposed framework through comprehensive experimental evaluations, demonstrating successful transfer learning from 130 or 45 to 7-nm technology nodes. The results underscore the potential of our approach to significantly mitigate the dependency on extensive data preparation while maintaining high accuracy in timing prediction for cutting-edge VLSI designs.
+```
+
+#### Research fact 2
+
+The study used layout-generation techniques to create a large-scale layout dataset for extensive pretraining of a layout-understanding model, thereby alleviating data scarcity.
+
+> To fully pre-train the layout understanding model (LUM), we create a large layout dataset using layout generation techniques, solving the data-hungry issues.
+
+[Paper Bridging Hotspot Detection and Mask Optimization via Domain-Crossing Masked Layout Modeling](https://doi.org/10.1145/3728468)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Bridging Hotspot Detection and Mask Optimization via Domain-Crossing Masked Layout Modeling
+With the rapid development of semiconductors, the size of transistors is continuously scaling down. The shrinking circuit size poses great challenges to optical proximity correction (OPC) and hotspot detection (HSD). Recent advancements in OPC and HSD commonly employ deep neural networks, achieving impressive performance within a limited runtime. Based on these achievements, we observe that deep-learning-based models of both HSD and OPC require knowledge of layout structure information. Furthermore, these two tasks are closely related to the lithography process during chip manufacturing. Observing such strong relationships, we propose that integrating OPC and HSD into a unified deep learning model will contribute to the performance of both tasks. To bridge the relationship between OPC and HSD, we first pre-train a layout understanding model built on the mask modeling technique, which effectively captures the layout geometric information, and then the pre-trained model can be easily fine-tuned on HSD and OPC with limited data. To fully pre-train the layout understanding model (LUM), we create a large layout dataset using layout generation techniques, solving the data-hungry issues. Experimental results show that the fine-tuned LUM model achieves remarkable performance on both OPC and HSD tasks.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to timing prediction across technology nodes or layout understanding, this candidate's experience in transfer learning and layout modeling could be complementary. However, the data are generated or cross-node data; usability for real design tasks needs confirmation.
+
+#### Items requiring confirmation
+
+Establish whether the candidate can obtain real design data and technology-library licenses, has conditions for validating executable design flows, and is willing to collaborate.
+
+- K006.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K006.note ｜ Basis for judgment or information needed：________
+
+- K006.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K008 Candidate P014
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/shanweiwei/main.htm)
+
+#### Research fact 1
+
+The paper proposed LLMACD, an LLM-based automatic designer with embedded analog-circuit design knowledge, and designed a refined prompt manager to extract circuit representations, embed circuit knowledge and model the design process in a chain-of-thought workflow.
+
+> This paper introduces LLMACD, a knowledge-embedded automation designer for analog circuit design based on large language models (LLMs). We design a refined prompt manager to extract circuit representation, embed circuit knowledge, and model the knowledge-intensive design process within a Chain-of-Thought (CoT) workflow.
+
+[Paper LLMACD: An LLM-Based Analog Circuit Designer Driven by Behavior Parameters](https://doi.org/10.1109/iseda65950.2025.11101244)
+
+**Title and abstract passage supplied on that run**
+
+```text
+LLMACD: An LLM-Based Analog Circuit Designer Driven by Behavior Parameters
+Analog circuit design is traditionally dependent on extensive human expertise, making the process time consuming and labor intensive. This paper introduces LLMACD, a knowledge-embedded automation designer for analog circuit design based on large language models (LLMs). We design a refined prompt manager to extract circuit representation, embed circuit knowledge, and model the knowledge-intensive design process within a Chain-of-Thought (CoT) workflow. Leveraging LLMs’ in-context learning capabilities and high-quality human-annotated design experience, LLMACD derives transistor behavioral parameters by analyzing performance expressions in a human-like manner without complex iterative loops, thereby accelerating the design process. Experimental results demonstrate that LLMACD outperforms traditional iterative transistor sizing optimization methods, achieving faster design times and enhanced circuit performance, with performance gains of up to 2 times.
+```
+
+#### Research fact 2
+
+The paper evaluated its PVT-Transfer framework on three integrated voltage references against four state-of-the-art circuit-sizing methods, using post-layout Monte Carlo simulation to validate performance superior to existing methods.
+
+> The PVT-Transfer Framework is evaluated on three integrated voltage references and compared with four state-of-the-art circuit sizing methods. Based on post-layout Monte-Carlo simulations, this framework is verified to offer superior performance to existing methods
+
+[Paper Knowledge Transfer Framework for PVT Robustness in Analog Integrated Circuits](https://doi.org/10.1109/tcsi.2023.3340683)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Knowledge Transfer Framework for PVT Robustness in Analog Integrated Circuits
+Process, voltage, and temperature (PVT) variations in chip fabrication or operation pose a significant challenge to the robustness of analog integrated circuits. Existing design techniques for mitigating PVT variations involve analyzing offsets of DC operating points, but this approach often leads to compromises in circuit performance. To address this challenge, we developed a ‘PVT-Transfer’ framework to facilitate knowledge transfer with evolutionary design. Specifically, by cross-operating the circuit parameters under variations, design knowledge is transferred through parameter migration, thus enhancing the robustness of the resultant circuit. In addition, we leverage data-driven learning to discover potential similarities among PVT variations, thereby mitigating negative knowledge transfer. The PVT-Transfer Framework is evaluated on three integrated voltage references and compared with four state-of-the-art circuit sizing methods. Based on post-layout Monte-Carlo simulations, this framework is verified to offer superior performance to existing methods, yielding a 60% reduction in power consumption, an 80% increase in temperature resilience, and up to 70$\times$enhancement in the figure of merit. Further, it leads to a 60% reduction in the number of required circuit simulations and is suitable for parallel computation.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to chip design, this candidate's LLM analog-circuit design flow and experience in post-layout simulation validation could contribute task knowledge and a flow-validation perspective. However, both concern analog circuits and do not involve timing or physical-design placement.
+
+#### Items requiring confirmation
+
+Establish whether the candidate understands digital timing/physical-design tasks, can provide real design data with permission for use, and is willing to participate in validating executable design flows.
+
+- K008.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K008.note ｜ Basis for judgment or information needed：________
+
+- K008.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+### K001 Candidate P004
+
+School: School of Integrated Circuits
+
+[Public faculty homepage](https://ic.seu.edu.cn/caopeng/main.htm)
+
+#### Research fact 1
+
+The paper proposed a multimodal-learning framework for optimization-aware prerouting timing prediction, using graph neural networks and convolutional neural networks to extract local netlist and layout information, respectively, and a Transformer to extract global path information.
+
+> In this work, an optimization-aware prerouting timing prediction framework based on multimodal learning is proposed to calibrate the timing changes between placement and routing stages, where the local netlist and layout information are extracted by graph neural network (GNN) and convolutional neural network (CNN), respectively, while the global information along the path is further extracted by Transformer network.
+
+[Paper An Optimization-Aware Prerouting Timing Prediction Framework Based on Multimodal Learning](https://doi.org/10.1109/tcad.2025.3547806)
+
+**Title and abstract passage supplied on that run**
+
+```text
+An Optimization-Aware Prerouting Timing Prediction Framework Based on Multimodal Learning
+Accurate and efficient prerouting timing estimation is particularly crucial during placement to alleviate time-consuming design iterations. Machine-learning (ML)-based methods have been introduced recently to predict the post-routing timing results at placement stage, but most of them neglect the impact of timing optimization during physical design, suffering from accuracy loss due to inconsistent circuit netlist. In this work, an optimization-aware prerouting timing prediction framework based on multimodal learning is proposed to calibrate the timing changes between placement and routing stages, where the local netlist and layout information are extracted by graph neural network (GNN) and convolutional neural network (CNN), respectively, while the global information along the path is further extracted by Transformer network. Based on the predicted post-routing timing results by the proposed framework, timing optimization guidance is generated to enhance traditional design flow with better physical implementation quality. Experimental results demonstrate that for the OpenCores benchmark circuits under TSMC 22nm process, the proposed framework achieves significant correlation and accuracy improvement with an average of 0.9219 in terms of R2 score and 2.12% of mean absolute percentage error (MAPE) as well as an average runtime acceleration of$645\times $compared with traditional design flow on testing designs. With the timing optimization guidance, significant worst negative slack (WNS) and total negative slack (TNS) improvement are achieved compared with traditional flow after placement and routing, respectively, without noticeable area, power, wire length, and the number of design rule check (DRC) violations increase.
+```
+
+#### Research fact 2
+
+The paper proposed a prerouting path-delay prediction framework using a Transformer network and a residual model, extracting placement-stage timing and physical information as sequential features and modeling path-delay residuals to calibrate the difference between prerouting and postrouting delay.
+
+> In this paper, an efficient and accurate pre-routing path delay prediction framework is proposed by employing transformer network and residual model, where the timing and physical information at placement stage is extracted as sequence features while the residual of path delay is modeled to calibrate the mismatch between the pre- and post-routing path delay.
+
+[Paper Pre-Routing Path Delay Estimation Based on Transformer and Residual Framework](https://doi.org/10.1109/asp-dac52403.2022.9712484)
+
+**Title and abstract passage supplied on that run**
+
+```text
+Pre-Routing Path Delay Estimation Based on Transformer and Residual Framework
+Timing estimation prior to routing is of vital importance for optimization at placement stage and timing closure. Existing wire- or net-oriented learning-based methods limits the accuracy and efficiency of prediction due to the neglect of the delay correlation along path and computational complexity for delay accumulation. In this paper, an efficient and accurate pre-routing path delay prediction framework is proposed by employing transformer network and residual model, where the timing and physical information at placement stage is extracted as sequence features while the residual of path delay is modeled to calibrate the mismatch between the pre- and post-routing path delay. Experimental results demonstrate that with the proposed framework, the prediction error of post-routing path delay is less than 1.68% and 3.12% for seen and unseen circuits in terms of rRMSE, which is reduced by 2.3~5.0 times compared with exiting learning-based method for pre-routing prediction. Moreover, this framework produces at least three orders of magnitude speedup compared with the traditional design flow, which is promising to guide circuit optimization with satisfying prediction accuracy prior to time-consuming routing and timing analysis.
+```
+
+#### Collaboration rationale
+
+If a domain language model is to be applied to prerouting timing prediction, this candidate's experience in timing prediction and multimodal feature extraction could offer a complementary method. However, the task is prediction rather than layout generation; integration with the chip-design flow needs validation.
+
+#### Items requiring confirmation
+
+Confirm whether the candidate has usable real design data, technology-library licenses, conditions for validating executable design flows, and current willingness to collaborate.
+
+- K001.interest ｜ Your judgment (yes worth further investigation or contact; conditional reconsider after more information; no not worthwhile; unknown unable to judge)：________
+
+- K001.note ｜ Basis for judgment or information needed：________
+
+- K001.entry ｜ Concrete collaboration entry point identified? (yes a concrete usable entry point; no none; unknown unable to judge)：________
+
+## Submission attestation
+
+- meta.attestation ｜ I have completed the above judgments and have truthfully declared my working method and any prior exposure：________
+
+Click “Check and export results” at the top of the page. The downloaded filename contains the packet ID and “completed”; do not change its fields or identifiers.

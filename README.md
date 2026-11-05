@@ -49,6 +49,16 @@ All code comments and documentation are in English. Chinese strings that remain 
 
 Do not overwrite the original labels after reading the summary.
 
+### Optional full-pipeline implementation
+
+If you want to run the pipeline rather than replay the archived outputs:
+
+1. Acquire raw OpenAlex records with `PREPARATION/code/fetch_public_data.py` (requires `OPENALEX_API_KEY` and a fresh `STUDY_WORK_DIR`; disabled by default).
+2. Normalize them with `PREPARATION/code/normalize_corpus.py` to produce `corpus.jsonl` and the shared 254-WordPiece retrieval text.
+3. Download the model weights listed in `PREPARATION/model/manifest.json` and run `PREPARATION/code/encoder.py` (set `STUDY_MODEL_DIR` and `STUDY_WORK_DIR`).
+4. Compute the six rankings with `PREPARATION/code/ranking.py` and `PREPARATION/code/retrieval_rules.py`.
+5. Generate new cards only with `PREPARATION/code/generate.py` (requires `ALLOW_PAID_REGENERATION=YES` and `DEEPSEEK_API_KEY`). Regeneration is a new run and is outside the validation reported in the manuscript.
+
 ## Requirements
 
 - Python 3.12 (the saved replay used Python 3.12.14).
